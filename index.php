@@ -6,15 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-  <!-- Bootstrap 4 CSS -->
-  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/css/bootstrap.min.css" /> -->
-
-  <!-- Slick CSS -->
-  <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" /> -->
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 
   <!-- Custom Styles -->
   <link rel="stylesheet" href="main.css">
-
 
   <title>Motivational Blog</title>
 
@@ -22,11 +18,24 @@
 
 <body>
 
+  <header class="clearfix">
+    <div class="logo">
+      <img src="images/logo-placeholder.png" alt="Logo">
+    </div>
+    <div class="menu-toggle"></div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+      </ul>
+    </nav>
+  </header>
 
   <div class="page-wrapper">
 
     <div class="posts-slider">
-
+      <h2 style="text-align: center;">Our most popular posts</h2>
       <button class="next">Next</button>
       <button class="prev">Prev</button>
 
@@ -62,24 +71,25 @@
       </div>
     </div>
 
+
   </div>
-
-
-
 
 
 
   <!-- JQuery -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-  <!-- Bootstrap 4 JS -->
-  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.min.js"></script> -->
-
   <!-- Slick JS -->
   <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
   <script>
     $(document).ready(function () {
+
+      $('.menu-toggle').click(function () {
+        $('.menu-toggle').toggleClass('active');
+        $('nav').toggleClass('active');
+      });
+
       $('.posts').slick({
         slidesToShow: 3,
         slidesToScroll: 1,
@@ -97,10 +107,12 @@
             }
           },
           {
-            breakpoint: 600,
+            breakpoint: 880,
             settings: {
               slidesToShow: 2,
-              slidesToScroll: 2
+              slidesToScroll: 2,
+              infinite: true,
+              dots: true
             }
           },
           {
@@ -110,9 +122,6 @@
               slidesToScroll: 1
             }
           }
-          // You can unslick at a given breakpoint now by adding:
-          // settings: "unslick"
-          // instead of a settings object
         ]
       });
     })
