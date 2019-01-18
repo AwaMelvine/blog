@@ -44,13 +44,14 @@ body {
 }
 
 header {
-  position: relative;
   background: #fff;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, .2);
 }
 
 header .logo img {
-  height: 60px;
+  height: 30px;
+  width: 100px;
+  margin: 15px 0px 15px 15px;
   float: left;
 }
 
@@ -65,21 +66,25 @@ header nav {
 }
 
 header nav ul {
-  margin: 0px;
+  overflow: hidden;
   padding: 0px;
-  display: inline-flex;
+  margin: 0px;
+  text-align: center;
+  -webkit-transition: max-height 0.4s;
+  -ms-webkit-transition: max-height 0.4s;
+  -moz-transition: max-height 0.4s;
+  -o-transition: max-height 0.4s;
+  transition: max-height 0.4s;
 }
 
 header nav ul li {
-  list-style: none;
+  display: inline-block;
+  padding: 22px;
 }
 
-header nav ul li a {
-  display: block;
-  margin: 10px 0;
-  padding: 10px 20px;
-  color: #262626;
+header nav ul a {
   text-decoration: none;
+  color: inherit;
 }
 
 @media (max-width: 768px) {
@@ -103,16 +108,17 @@ header nav ul li a {
     content: '\f00d';
   }
   nav {
-    display: none;
-  }
-  nav.active {
-    display: block;
     width: 100%;
   }
-  nav.active ul {
-    display: block;
+  nav ul {
+    max-height: 0px;
   }
-  nav.activ ul li a {
-    margin: 0px;
+  .showing {
+    max-height: 90em;
+  }
+  nav ul li {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 15px;
   }
 }

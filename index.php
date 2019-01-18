@@ -25,9 +25,15 @@
     <div class="menu-toggle"></div>
     <nav>
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
+        <a href="#">
+          <li>Home</li>
+        </a>
+        <a href="#">
+          <li>About</li>
+        </a>
+        <a href="#">
+          <li>Services</li>
+        </a>
       </ul>
     </nav>
   </header>
@@ -70,8 +76,6 @@
         </div>
       </div>
     </div>
-
-
   </div>
 
 
@@ -88,6 +92,7 @@
       $('.menu-toggle').click(function () {
         $('.menu-toggle').toggleClass('active');
         $('nav').toggleClass('active');
+        $('nav ul').toggleClass('showing');
       });
 
       $('.posts').slick({
@@ -124,7 +129,7 @@
           }
         ]
       });
-    })
+    });
   </script>
 
 </body>
