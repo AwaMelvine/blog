@@ -22,7 +22,7 @@
     <div class="logo">
       <img src="images/logo-placeholder.png" alt="Logo">
     </div>
-    <div class="menu-toggle"></div>
+    <div class="fa fa-reorder menu-toggle"></div>
     <nav>
       <ul>
         <a href="#">
@@ -42,8 +42,8 @@
 
     <div class="posts-slider">
       <h2 style="text-align: center;">Our most popular posts</h2>
-      <button class="next">Next</button>
-      <button class="prev">Prev</button>
+      <i class="fa fa-chevron-circle-right next"></i>
+      <i class="fa fa-chevron-circle-left prev"></i>
 
       <div class="posts">
         <div class="post">
@@ -76,8 +76,79 @@
         </div>
       </div>
     </div>
-  </div>
 
+    <div class="content clearfix">
+      <div class="post-listing">
+        <div class="post clearfix">
+          <img src="https://via.placeholder.com/280" class="post-image" alt="">
+          <div class="post-content">
+            <a href="#" class="post-title">
+              <h2>One day your life will flash before your eyes.</h2>
+            </a>
+            <div class="post-info">
+              <i class="fa fa-user-o"></i> Awa Melvine
+              &nbsp;
+              <i class="fa fa-calendar"></i> Jan 18, 2019
+            </div>
+            <p class="post-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus expedita tempora
+              qui sunt! Ipsum nihil unde obcaecati.
+            </p>
+            <a href="#" class="read-more">Read More</a>
+          </div>
+        </div>
+        <div class="post clearfix">
+          <img src="https://via.placeholder.com/280" class="post-image" alt="">
+          <div class="post-content">
+            <a href="#" class="post-title">
+              <h2>Before we were yours</h2>
+            </a>
+            <div class="post-info">
+              <i class="fa fa-user-o"></i> Awa Melvine
+              &nbsp;
+              <i class="fa fa-calendar"></i> Jan 18, 2019
+            </div>
+            <p class="post-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus expedita tempora
+              qui sunt! Ipsum nihil unde obcaecati.
+            </p>
+            <a href="#" class="read-more">Read More</a>
+          </div>
+        </div>
+        <div class="post clearfix">
+          <img src="https://via.placeholder.com/280" class="post-image" alt="">
+          <div class="post-content">
+            <a href="#" class="post-title">
+              <h2>Before we were yours</h2>
+            </a>
+            <div class="post-info">
+              <i class="fa fa-user-o"></i> Awa Melvine
+              &nbsp;
+              <i class="fa fa-calendar"></i> Jan 18, 2019
+            </div>
+            <p class="post-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus expedita tempora
+              qui sunt! Ipsum nihil unde obcaecati.
+            </p>
+            <a href="#" class="read-more">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="sidebar">
+        <div class="fb-page">
+
+        </div>
+
+        <div class="popular-posts">
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- // page wrapper -->
+
+  <!-- FOOTER -->
+  <div class="footer" style="background: #1b1b1b; height: 90px;">
+    <h1 style="text-align: center; color: white;">Blog Footer</h1>
+  </div>
 
 
   <!-- JQuery -->

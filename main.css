@@ -1,51 +1,25 @@
-body {
+@import url('https://fonts.googleapis.com/css?family=Lora');
+html, body {
   padding: 0px;
   margin: 0px;
-}
-
-.page-wrapper .posts-slider {
-  position: relative;
-  padding: 5px;
-}
-
-.page-wrapper .posts-slider .next {
-  position: absolute;
-  right: 30px;
-  top: 50%;
-  z-index: 100;
-}
-
-.page-wrapper .posts-slider .prev {
-  position: absolute;
-  left: 30px;
-  top: 50%;
-  z-index: 100;
-}
-
-.page-wrapper .posts-slider .posts {
-  height: 300px;
-  width: 84%;
-  margin: 0px auto;
-  overflow: hidden;
-  padding: 5px;
-}
-
-.page-wrapper .posts-slider .posts .post {
-  width: 300px;
-  height: 300px;
-  padding: 0px 10px 0px;
-  display: inline-block;
-}
-
-.page-wrapper .posts-slider .posts .post .inner-post {
+  font-family: 'Lora', serif;
   height: 100%;
-  border: 1px solid #e0e0e0;
-  border-radius: 5px;
 }
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover, a:active {
+  color: #008489;
+}
+
+/* NAVBAR */
 
 header {
-  background: #fff;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, .2);
+  background: #008489;
+  color: #ffffff;
 }
 
 header .logo img {
@@ -70,11 +44,11 @@ header nav ul {
   padding: 0px;
   margin: 0px;
   text-align: center;
-  -webkit-transition: max-height 0.4s;
-  -ms-webkit-transition: max-height 0.4s;
-  -moz-transition: max-height 0.4s;
-  -o-transition: max-height 0.4s;
-  transition: max-height 0.4s;
+  -webkit-transition: max-height 0.5s;
+  -ms-webkit-transition: max-height 0.5s;
+  -moz-transition: max-height 0.5s;
+  -o-transition: max-height 0.5s;
+  transition: max-height 0.5s;
 }
 
 header nav ul li {
@@ -87,6 +61,150 @@ header nav ul a {
   color: inherit;
 }
 
+.menu-toggle {
+  display: none;
+}
+
+/* SLIDER */
+
+.page-wrapper {
+  min-height: 100%;
+  margin-bottom: 50px;
+}
+
+.page-wrapper .posts-slider {
+  position: relative;
+  padding: 5px;
+}
+
+.page-wrapper .posts-slider .next {
+  position: absolute;
+  right: 30px;
+  top: 50%;
+  z-index: 100;
+  font-size: 2em;
+  color: #444;
+  cursor: pointer;
+}
+
+.page-wrapper .posts-slider .prev {
+  position: absolute;
+  left: 30px;
+  top: 50%;
+  z-index: 100;
+  font-size: 2em;
+  color: #444;
+  cursor: pointer;
+}
+
+.page-wrapper .posts-slider .posts {
+  height: 300px;
+  width: 84%;
+  margin: 0px auto;
+  overflow: hidden;
+  padding: 5px;
+}
+
+.page-wrapper .posts-slider .posts .post {
+  width: 300px;
+  height: 300px;
+  padding: 0px 10px 0px;
+  display: inline-block;
+}
+
+.page-wrapper .posts-slider .posts .post .inner-post {
+  height: 100%;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+}
+
+/* CONTENT */
+
+.content {
+  width: 90%;
+  margin: 40px auto;
+}
+
+.content .post-listing {
+  width: 70%;
+  float: left;
+}
+
+.content .post-listing .post {
+  border: 1px solid #ececec;
+  height: 300px;
+  width: 96%;
+  margin: 0px auto 30px;
+}
+
+.content .post-listing .post .post-content {
+  width: 59.88%;
+  height: 100%;
+  position: relative;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  float: left;
+}
+
+.content .post-listing .post .read-more {
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid #8BC7C9;
+  padding: 8px 15px;
+  border-radius: 0px;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+
+.content .post-listing .post .read-more:hover {
+  color: white;
+  background: #008489;
+  border: 1px solid #008489;
+  transition: .5s;
+}
+
+.content .post-listing .post .post-body {
+  line-height: 1.7em;
+  font-size: 1.03em;
+  color: #444;
+}
+
+.content .post-listing .post .post-image {
+  width: 40%;
+  height: inherit;
+  float: left;
+}
+
+.content .post-listing .post .post-info {
+  color: #757575;
+  font-size: 0.8em;
+}
+
+.content .sidebar {
+  width: 29%;
+  float: left;
+}
+
+.content .sidebar .fb-page {
+  border: 1px solid #e0e0e0;
+  height: 200px;
+  width: 98%;
+  margin: 0px auto;
+}
+
+.content .sidebar .popular-posts {
+  border: 1px solid #e0e0e0;
+  width: 98%;
+  margin: 25px auto;
+  height: 400px;
+}
+
+.footer {
+  height: 50px;
+  margin-top: -50px;
+}
+
 @media (max-width: 768px) {
   .menu-toggle {
     display: block;
@@ -97,18 +215,16 @@ header nav ul a {
     cursor: pointer;
     text-align: center;
     font-size: 30px;
-    color: #069370;
+    color: #ffffff;
   }
   .menu-toggle:before {
     content: '\f0c9';
     font-family: fontAwesome;
     line-height: 40px;
   }
-  .menu-toggle.active:before {
-    content: '\f00d';
-  }
   nav {
     width: 100%;
+    background: #0E94A0;
   }
   nav ul {
     max-height: 0px;
