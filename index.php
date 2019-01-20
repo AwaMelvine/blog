@@ -138,6 +138,71 @@
 
         <div class="popular-posts">
 
+          <h3 style="text-align: center;">Popular Posts</h3>
+          <div class="post clearfix">
+            <img src="https://via.placeholder.com/80" alt="" class="post-image">
+            <div class="post-info">
+              <a href="#">
+                <h4 class="post-title">One day your life will flash before your eyes</h4>
+              </a>
+              <div style="font-size: 0.8em;">
+                <i class="fa fa-user-o"></i> Awa Melvine
+                &nbsp;
+                <i class="fa fa-calendar"></i> Jan 18, 2019
+              </div>
+            </div>
+          </div>
+
+          <div class="divide"></div>
+
+          <div class="post clearfix">
+            <img src="https://via.placeholder.com/80" alt="" class="post-image">
+            <div class="post-info">
+              <a href="#">
+                <h4 class="post-title">Before we were yours</h4>
+              </a>
+              <div style="font-size: 0.8em;">
+                <i class="fa fa-user-o"></i> Awa Melvine
+                &nbsp;
+                <i class="fa fa-calendar"></i> Jan 18, 2019
+              </div>
+            </div>
+          </div>
+
+          <div class="divide"></div>
+          <div class="post clearfix">
+            <img src="https://via.placeholder.com/80" alt="" class="post-image">
+            <div class="post-info">
+              <a href="#">
+                <h4 class="post-title">One day your life will flash before your eyes</h4>
+              </a>
+              <div style="font-size: 0.8em;">
+                <i class="fa fa-user-o"></i> Awa Melvine
+                &nbsp;
+                <i class="fa fa-calendar"></i> Jan 18, 2019
+              </div>
+            </div>
+          </div>
+
+          <div class="divide"></div>
+
+          <div class="post clearfix">
+            <img src="https://via.placeholder.com/80" alt="" class="post-image">
+            <div class="post-info">
+              <a href="#">
+                <h4 class="post-title">Before we were yours</h4>
+              </a>
+              <div style="font-size: 0.8em;">
+                <i class="fa fa-user-o"></i> Awa Melvine
+                &nbsp;
+                <i class="fa fa-calendar"></i> Jan 18, 2019
+              </div>
+            </div>
+          </div>
+
+          <div class="divide"></div>
+
+
         </div>
       </div>
     </div>

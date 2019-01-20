@@ -197,7 +197,37 @@ header nav ul a {
   border: 1px solid #e0e0e0;
   width: 98%;
   margin: 25px auto;
-  height: 400px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.content .sidebar .popular-posts .post {
+  height: 80px;
+}
+
+.content .sidebar .popular-posts .divide {
+  border-bottom: 1px solid #EBEBEB;
+  margin: 7px auto;
+}
+
+.content .sidebar .popular-posts .post .post-image {
+  width: 24%;
+  height: 80px;
+  float: left;
+}
+
+.content .sidebar .popular-posts .post .post-info {
+  width: 74%;
+  float: left;
+  height: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.content .sidebar .popular-posts .post .post-title {
+  font-weight: lighter;
+  color: #008489;
+  margin: 5px;
 }
 
 .footer {
