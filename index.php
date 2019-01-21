@@ -48,30 +48,54 @@
       <div class="posts">
         <div class="post">
           <div class="inner-post">
-            <h3>1</h3>
-            <h3>1</h3>
-            <h3>1</h3>
+            <img src="images/image_7.jpg" alt="" style="height: 200px; width: 100%; border-top-left-radius: 5px; border-top-right-radius: 5px;">
+            <div class="post-info">
+              <h3>One day your life will flash before your eyes</h3>
+              <div>
+                <i class="fa fa-user-o"></i> Awa Melvine
+                &nbsp;
+                <i class="fa fa-calendar"></i> Jan 18, 2019
+              </div>
+            </div>
           </div>
         </div>
         <div class="post">
           <div class="inner-post">
-            <h3>2</h3>
-            <h3>2</h3>
-            <h3>2</h3>
+            <img src="images/image_6.jpg" alt="" style="height: 200px; width: 100%; border-top-left-radius: 5px; border-top-right-radius: 5px;">
+            <div class="post-info">
+              <h3>One day your life will flash before your eyes</h3>
+              <div>
+                <i class="fa fa-user-o"></i> Awa Melvine
+                &nbsp;
+                <i class="fa fa-calendar"></i> Jan 18, 2019
+              </div>
+            </div>
           </div>
         </div>
         <div class="post">
           <div class="inner-post">
-            <h3>3</h3>
-            <h3>3</h3>
-            <h3>3</h3>
+            <img src="images/image_5.jpg" alt="" style="height: 200px; width: 100%; border-top-left-radius: 5px; border-top-right-radius: 5px;">
+            <div class="post-info">
+              <h3>One day your life will flash before your eyes</h3>
+              <div>
+                <i class="fa fa-user-o"></i> Awa Melvine
+                &nbsp;
+                <i class="fa fa-calendar"></i> Jan 18, 2019
+              </div>
+            </div>
           </div>
         </div>
         <div class="post">
           <div class="inner-post">
-            <h3>4</h3>
-            <h3>4</h3>
-            <h3>4</h3>
+            <img src="images/image_4.jpg" alt="" style="height: 200px; width: 100%; border-top-left-radius: 5px; border-top-right-radius: 5px;">
+            <div class="post-info">
+              <h3>One day your life will flash before your eyes</h3>
+              <div>
+                <i class="fa fa-user-o"></i> Awa Melvine
+                &nbsp;
+                <i class="fa fa-calendar"></i> Jan 18, 2019
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -80,10 +104,10 @@
     <div class="content clearfix">
       <div class="post-listing">
         <div class="post clearfix">
-          <img src="https://via.placeholder.com/280" class="post-image" alt="">
+          <img src="images/image_1.jpg" class="post-image" alt="">
           <div class="post-content">
-            <a href="#" class="post-title">
-              <h2>One day your life will flash before your eyes.</h2>
+            <a href="#">
+              <h2 class="post-title">One day your life will flash before your eyes.</h2>
             </a>
             <div class="post-info">
               <i class="fa fa-user-o"></i> Awa Melvine
@@ -97,10 +121,10 @@
           </div>
         </div>
         <div class="post clearfix">
-          <img src="https://via.placeholder.com/280" class="post-image" alt="">
+          <img src="images/image_2.jpg" class="post-image" alt="">
           <div class="post-content">
-            <a href="#" class="post-title">
-              <h2>Before we were yours</h2>
+            <a href="#">
+              <h2 class="post-title">Before we were yours</h2>
             </a>
             <div class="post-info">
               <i class="fa fa-user-o"></i> Awa Melvine
@@ -114,10 +138,10 @@
           </div>
         </div>
         <div class="post clearfix">
-          <img src="https://via.placeholder.com/280" class="post-image" alt="">
+          <img src="images/image_3.jpg" class="post-image" alt="">
           <div class="post-content">
-            <a href="#" class="post-title">
-              <h2>Before we were yours</h2>
+            <a href="#">
+              <h2 class="post-title">Before we were yours</h2>
             </a>
             <div class="post-info">
               <i class="fa fa-user-o"></i> Awa Melvine

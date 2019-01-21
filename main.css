@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Lora');
+@import url('https://fonts.googleapis.com/css?family=Lora|Merriweather');
 html, body {
   padding: 0px;
   margin: 0px;
   font-family: 'Lora', serif;
   height: 100%;
+  background: #f6f6f6;
 }
 
 a {
@@ -13,6 +14,11 @@ a {
 
 a:hover, a:active {
   color: #008489;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Merriweather', serif;
+  margin: 5px;
 }
 
 /* NAVBAR */
@@ -98,7 +104,7 @@ header nav ul a {
 }
 
 .page-wrapper .posts-slider .posts {
-  height: 300px;
+  height: 350px;
   width: 84%;
   margin: 0px auto;
   overflow: hidden;
@@ -114,8 +120,14 @@ header nav ul a {
 
 .page-wrapper .posts-slider .posts .post .inner-post {
   height: 100%;
-  border: 1px solid #e0e0e0;
   border-radius: 5px;
+  background: #fff;
+  box-shadow: 0 1.2rem 1.2rem -1rem rgba(10, 10, 10, .2);
+}
+
+.page-wrapper .posts-slider .posts .post .inner-post .post-info {
+  height: 100px;
+  padding: 5px 10px;
 }
 
 /* CONTENT */
@@ -131,19 +143,24 @@ header nav ul a {
 }
 
 .content .post-listing .post {
-  border: 1px solid #ececec;
-  height: 300px;
+  border-radius: 5px;
+  height: 260px;
   width: 96%;
   margin: 0px auto 30px;
+  background: #fff;
 }
 
 .content .post-listing .post .post-content {
-  width: 59.88%;
+  width: 62.88%;
   height: 100%;
   position: relative;
   box-sizing: border-box;
-  padding: 10px 20px;
+  padding: 5px 15px;
   float: left;
+}
+
+.content .post-listing .post .post-title {
+  margin: 5px 0px;
 }
 
 .content .post-listing .post .read-more {
@@ -171,7 +188,7 @@ header nav ul a {
 }
 
 .content .post-listing .post .post-image {
-  width: 40%;
+  width: 37%;
   height: inherit;
   float: left;
 }
@@ -187,14 +204,14 @@ header nav ul a {
 }
 
 .content .sidebar .fb-page {
-  border: 1px solid #e0e0e0;
+  background: #fff;
   height: 200px;
   width: 98%;
   margin: 0px auto;
 }
 
 .content .sidebar .popular-posts {
-  border: 1px solid #e0e0e0;
+  background: #fff;
   width: 98%;
   margin: 25px auto;
   padding: 10px;
