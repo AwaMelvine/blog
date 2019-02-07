@@ -38,17 +38,19 @@
     </nav>
   </header>
 
+  <!-- Page wrapper -->
   <div class="page-wrapper">
 
+    <!-- Posts Slider -->
     <div class="posts-slider">
-      <h2 style="text-align: center;">Our most popular posts</h2>
-      <i class="fa fa-chevron-circle-right next"></i>
-      <i class="fa fa-chevron-circle-left prev"></i>
+      <h1 class="slider-title">Trending Posts</h1>
+      <i class="fa fa-chevron-right next"></i>
+      <i class="fa fa-chevron-left prev"></i>
 
       <div class="posts">
         <div class="post">
           <div class="inner-post">
-            <img src="images/image_7.jpg" alt="" style="height: 200px; width: 100%; border-top-left-radius: 5px; border-top-right-radius: 5px;">
+            <img src="images/image_7.png" alt="" style="height: 200px; width: 100%; border-top-left-radius: 5px; border-top-right-radius: 5px;">
             <div class="post-info">
               <h3>One day your life will flash before your eyes</h3>
               <div>
@@ -61,7 +63,7 @@
         </div>
         <div class="post">
           <div class="inner-post">
-            <img src="images/image_6.jpg" alt="" style="height: 200px; width: 100%; border-top-left-radius: 5px; border-top-right-radius: 5px;">
+            <img src="images/image_6.png" alt="" style="height: 200px; width: 100%; border-top-left-radius: 5px; border-top-right-radius: 5px;">
             <div class="post-info">
               <h3>One day your life will flash before your eyes</h3>
               <div>
@@ -74,7 +76,7 @@
         </div>
         <div class="post">
           <div class="inner-post">
-            <img src="images/image_5.jpg" alt="" style="height: 200px; width: 100%; border-top-left-radius: 5px; border-top-right-radius: 5px;">
+            <img src="images/image_5.png" alt="" style="height: 200px; width: 100%; border-top-left-radius: 5px; border-top-right-radius: 5px;">
             <div class="post-info">
               <h3>One day your life will flash before your eyes</h3>
               <div>
@@ -87,7 +89,7 @@
         </div>
         <div class="post">
           <div class="inner-post">
-            <img src="images/image_4.jpg" alt="" style="height: 200px; width: 100%; border-top-left-radius: 5px; border-top-right-radius: 5px;">
+            <img src="images/image_4.png" alt="" style="height: 200px; width: 100%; border-top-left-radius: 5px; border-top-right-radius: 5px;">
             <div class="post-info">
               <h3>One day your life will flash before your eyes</h3>
               <div>
@@ -100,15 +102,20 @@
         </div>
       </div>
     </div>
+    <!-- // posts slider -->
 
+    <!-- content -->
     <div class="content clearfix">
       <div class="post-listing">
+
+        <h1 class="recent-posts-title">Recent Posts</h1>
+
         <div class="post clearfix">
-          <img src="images/image_1.jpg" class="post-image" alt="">
+          <img src="images/image_1.png" class="post-image" alt="">
           <div class="post-content">
-            <a href="#">
-              <h2 class="post-title">One day your life will flash before your eyes.</h2>
-            </a>
+
+            <h2 class="post-title"><a href="#">One day your life will flash before your eyes.</a></h2>
+
             <div class="post-info">
               <i class="fa fa-user-o"></i> Awa Melvine
               &nbsp;
@@ -121,11 +128,9 @@
           </div>
         </div>
         <div class="post clearfix">
-          <img src="images/image_2.jpg" class="post-image" alt="">
+          <img src="images/image_2.png" class="post-image" alt="">
           <div class="post-content">
-            <a href="#">
-              <h2 class="post-title">Before we were yours</h2>
-            </a>
+            <h2 class="post-title"><a href="#">Before we were yours</h2></a>
             <div class="post-info">
               <i class="fa fa-user-o"></i> Awa Melvine
               &nbsp;
@@ -138,11 +143,9 @@
           </div>
         </div>
         <div class="post clearfix">
-          <img src="images/image_3.jpg" class="post-image" alt="">
+          <img src="images/image_3.png" class="post-image" alt="">
           <div class="post-content">
-            <a href="#">
-              <h2 class="post-title">Before we were yours</h2>
-            </a>
+            <h2 class="post-title"><a href="#">Before we were yours</a></h2>
             <div class="post-info">
               <i class="fa fa-user-o"></i> Awa Melvine
               &nbsp;
@@ -153,90 +156,52 @@
             </p>
             <a href="#" class="read-more">Read More</a>
           </div>
-        </div>
-      </div>
-      <div class="sidebar">
-        <div class="fb-page">
-
-        </div>
-
-        <div class="popular-posts">
-
-          <h3 style="text-align: center;">Popular Posts</h3>
-          <div class="post clearfix">
-            <img src="https://via.placeholder.com/80" alt="" class="post-image">
-            <div class="post-info">
-              <a href="#">
-                <h4 class="post-title">One day your life will flash before your eyes</h4>
-              </a>
-              <div style="font-size: 0.8em;">
-                <i class="fa fa-user-o"></i> Awa Melvine
-                &nbsp;
-                <i class="fa fa-calendar"></i> Jan 18, 2019
-              </div>
-            </div>
-          </div>
-
-          <div class="divide"></div>
-
-          <div class="post clearfix">
-            <img src="https://via.placeholder.com/80" alt="" class="post-image">
-            <div class="post-info">
-              <a href="#">
-                <h4 class="post-title">Before we were yours</h4>
-              </a>
-              <div style="font-size: 0.8em;">
-                <i class="fa fa-user-o"></i> Awa Melvine
-                &nbsp;
-                <i class="fa fa-calendar"></i> Jan 18, 2019
-              </div>
-            </div>
-          </div>
-
-          <div class="divide"></div>
-          <div class="post clearfix">
-            <img src="https://via.placeholder.com/80" alt="" class="post-image">
-            <div class="post-info">
-              <a href="#">
-                <h4 class="post-title">One day your life will flash before your eyes</h4>
-              </a>
-              <div style="font-size: 0.8em;">
-                <i class="fa fa-user-o"></i> Awa Melvine
-                &nbsp;
-                <i class="fa fa-calendar"></i> Jan 18, 2019
-              </div>
-            </div>
-          </div>
-
-          <div class="divide"></div>
-
-          <div class="post clearfix">
-            <img src="https://via.placeholder.com/80" alt="" class="post-image">
-            <div class="post-info">
-              <a href="#">
-                <h4 class="post-title">Before we were yours</h4>
-              </a>
-              <div style="font-size: 0.8em;">
-                <i class="fa fa-user-o"></i> Awa Melvine
-                &nbsp;
-                <i class="fa fa-calendar"></i> Jan 18, 2019
-              </div>
-            </div>
-          </div>
-
-          <div class="divide"></div>
-
-
         </div>
       </div>
     </div>
+    <!-- // content -->
 
   </div>
   <!-- // page wrapper -->
 
   <!-- FOOTER -->
-  <div class="footer" style="background: #1b1b1b; height: 90px;">
-    <h1 style="text-align: center; color: white;">Blog Footer</h1>
+  <div class="footer">
+    <div class="footer-content">
+
+      <div class="footer-section newsletter">
+        <h2>Newsletter</h2>
+        <p>Subscribe to our weekly newsletter</p>
+        <form action="index.php" method="post">
+          <input type="email" name="user_email" class="text-input" placeholder="E.g, user@example.com">
+          <button class="btn">Keep me posted</button>
+        </form>
+      </div>
+
+      <div class="footer-section other-links">
+        <h2>Other Links</h2>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Terms and conditions</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section social-links">
+        <h2>Follow Us</h2>
+        <div class="links">
+          <a href="#"><i class="fa fa-facebook-square" style="color: #4267b2;"></i></a>
+          <a href="#"><i class="fa fa-twitter-square" style="color: #00aced;"></i></a>
+          <a href="#"><i class="fa fa-google-plus-square" style="color: #dd4b39;"></i></a>
+          <a href="#"><i class="fa fa-linkedin-square" style="color: #0077B5;"></i></a>
+        </div>
+
+      </div>
+
+    </div>
+    <div class="footer-bottom">
+      <p>© Coding Poets | Designed by Awa Melvine</p>
+    </div>
   </div>
 
 
@@ -246,51 +211,7 @@
   <!-- Slick JS -->
   <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
-  <script>
-    $(document).ready(function () {
-
-      $('.menu-toggle').click(function () {
-        $('.menu-toggle').toggleClass('active');
-        $('nav').toggleClass('active');
-        $('nav ul').toggleClass('showing');
-      });
-
-      $('.posts').slick({
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 2000,
-        nextArrow: $('.next'),
-        prevArrow: $('.prev'),
-        responsive: [{
-            breakpoint: 1024,
-            settings: {
-              slidesToShow: 3,
-              slidesToScroll: 3,
-              infinite: true,
-              dots: true
-            }
-          },
-          {
-            breakpoint: 880,
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 2,
-              infinite: true,
-              dots: true
-            }
-          },
-          {
-            breakpoint: 480,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1
-            }
-          }
-        ]
-      });
-    });
-  </script>
+  <script src="scripts.js"></script>
 
 </body>
 

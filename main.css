@@ -19,6 +19,41 @@ a:hover, a:active {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Merriweather', serif;
   margin: 5px;
+  color: #484848;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  width: 100%;
+  white-space: nowrap;
+  border: 1px solid transparent;
+  padding: .7rem 1rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  background: #008489;
+  color: #fff;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background: #00767a;
+}
+
+.text-input {
+  border: none;
+  outline: none;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  padding: .5rem 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: .3rem;
+  font-family: 'Lora', serif;
 }
 
 /* NAVBAR */
@@ -83,13 +118,18 @@ header nav ul a {
   padding: 5px;
 }
 
+.page-wrapper .posts-slider .slider-title {
+  text-align: center;
+  margin: 40px auto 40px;
+}
+
 .page-wrapper .posts-slider .next {
   position: absolute;
   right: 30px;
   top: 50%;
   z-index: 100;
   font-size: 2em;
-  color: #444;
+  color: #008489;
   cursor: pointer;
 }
 
@@ -99,7 +139,7 @@ header nav ul a {
   top: 50%;
   z-index: 100;
   font-size: 2em;
-  color: #444;
+  color: #008489;
   cursor: pointer;
 }
 
@@ -134,12 +174,12 @@ header nav ul a {
 
 .content {
   width: 90%;
-  margin: 40px auto;
+  margin: 40px auto 140px;
 }
 
 .content .post-listing {
-  width: 70%;
-  float: left;
+  width: 75%;
+  margin: 0px auto;
 }
 
 .content .post-listing .post {
@@ -161,6 +201,10 @@ header nav ul a {
 
 .content .post-listing .post .post-title {
   margin: 5px 0px;
+}
+
+.content .post-listing .recent-posts-title {
+  margin: 20px;
 }
 
 .content .post-listing .post .read-more {
@@ -198,58 +242,55 @@ header nav ul a {
   font-size: 0.8em;
 }
 
-.content .sidebar {
-  width: 29%;
-  float: left;
-}
-
-.content .sidebar .fb-page {
-  background: #fff;
-  height: 200px;
-  width: 98%;
-  margin: 0px auto;
-}
-
-.content .sidebar .popular-posts {
-  background: #fff;
-  width: 98%;
-  margin: 25px auto;
-  padding: 10px;
-  box-sizing: border-box;
-}
-
-.content .sidebar .popular-posts .post {
-  height: 80px;
-}
-
-.content .sidebar .popular-posts .divide {
-  border-bottom: 1px solid #EBEBEB;
-  margin: 7px auto;
-}
-
-.content .sidebar .popular-posts .post .post-image {
-  width: 24%;
-  height: 80px;
-  float: left;
-}
-
-.content .sidebar .popular-posts .post .post-info {
-  width: 74%;
-  float: left;
-  height: 100%;
-  padding: 5px;
-  box-sizing: border-box;
-}
-
-.content .sidebar .popular-posts .post .post-title {
-  font-weight: lighter;
-  color: #008489;
-  margin: 5px;
-}
-
 .footer {
-  height: 50px;
   margin-top: -50px;
+  background: #181818;
+  color: white;
+  height: 301px;
+  position: relative;
+}
+
+.footer .footer-bottom {
+  color: #686868;
+  border-top: 1px solid #333333;
+  text-align: center;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 50px;
+  box-sizing: border-box;
+}
+
+.footer .footer-content {
+  height: 200px;
+  display: flex;
+}
+
+.footer .footer-content .footer-section {
+  flex: 1;
+  height: 99%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.footer .footer-content .other-links ul li {
+  font-size: 1.1em;
+}
+
+.footer .footer-content .social-links .links {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin-top: 30px;
+}
+
+.footer .footer-content .social-links .links i {
+  font-size: 2em;
+  margin: 0px 10px;
+}
+
+.footer .footer-content .footer-section h2 {
+  color: #f0ecec;
 }
 
 @media (max-width: 768px) {
