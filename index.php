@@ -18,15 +18,6 @@
 
 <body>
 
-  <!-- <div id="fb-root"></div>
-    <script>(function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2&appId=285071545181837&autoLogAppEvents=1';
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script> -->
-
   <header class="clearfix">
     <div class="logo">
       <img src="images/logo-placeholder.png" alt="Logo">
@@ -47,8 +38,10 @@
     </nav>
   </header>
 
+  <!-- Page wrapper -->
   <div class="page-wrapper">
 
+    <!-- Posts Slider -->
     <div class="posts-slider">
       <h1 class="slider-title">Trending Posts</h1>
       <i class="fa fa-chevron-right next"></i>
@@ -57,8 +50,7 @@
       <div class="posts">
         <div class="post">
           <div class="inner-post">
-            <img src="images/image_7.png" alt=""
-              style="height: 200px; width: 100%; border-top-left-radius: 5px; border-top-right-radius: 5px;">
+            <img src="images/image_7.png" alt="" style="height: 200px; width: 100%; border-top-left-radius: 5px; border-top-right-radius: 5px;">
             <div class="post-info">
               <h3>One day your life will flash before your eyes</h3>
               <div>
@@ -71,8 +63,7 @@
         </div>
         <div class="post">
           <div class="inner-post">
-            <img src="images/image_6.png" alt=""
-              style="height: 200px; width: 100%; border-top-left-radius: 5px; border-top-right-radius: 5px;">
+            <img src="images/image_6.png" alt="" style="height: 200px; width: 100%; border-top-left-radius: 5px; border-top-right-radius: 5px;">
             <div class="post-info">
               <h3>One day your life will flash before your eyes</h3>
               <div>
@@ -85,8 +76,7 @@
         </div>
         <div class="post">
           <div class="inner-post">
-            <img src="images/image_5.png" alt=""
-              style="height: 200px; width: 100%; border-top-left-radius: 5px; border-top-right-radius: 5px;">
+            <img src="images/image_5.png" alt="" style="height: 200px; width: 100%; border-top-left-radius: 5px; border-top-right-radius: 5px;">
             <div class="post-info">
               <h3>One day your life will flash before your eyes</h3>
               <div>
@@ -99,8 +89,7 @@
         </div>
         <div class="post">
           <div class="inner-post">
-            <img src="images/image_4.png" alt=""
-              style="height: 200px; width: 100%; border-top-left-radius: 5px; border-top-right-radius: 5px;">
+            <img src="images/image_4.png" alt="" style="height: 200px; width: 100%; border-top-left-radius: 5px; border-top-right-radius: 5px;">
             <div class="post-info">
               <h3>One day your life will flash before your eyes</h3>
               <div>
@@ -113,9 +102,14 @@
         </div>
       </div>
     </div>
+    <!-- // posts slider -->
 
+    <!-- content -->
     <div class="content clearfix">
       <div class="post-listing">
+
+        <h1 class="recent-posts-title">Recent Posts</h1>
+
         <div class="post clearfix">
           <img src="images/image_1.png" class="post-image" alt="">
           <div class="post-content">
@@ -164,82 +158,8 @@
           </div>
         </div>
       </div>
-      <div class="sidebar">
-        <div class="fb-page">
-          <div class="fb-page" data-href="https://www.facebook.com/facebook" data-width="380" data-hide-cover="false"
-            data-show-facepile="false"></div>
-        </div>
-
-        <div class="popular-posts">
-
-          <h3 style="text-align: center;">Popular Posts</h3>
-          <div class="post clearfix">
-            <img src="https://via.placeholder.com/80" alt="" class="post-image">
-            <div class="post-info">
-              <a href="#">
-                <h4 class="post-title">One day your life will flash before your eyes</h4>
-              </a>
-              <div style="font-size: 0.8em;">
-                <i class="fa fa-user-o"></i> Awa Melvine
-                &nbsp;
-                <i class="fa fa-calendar"></i> Jan 18, 2019
-              </div>
-            </div>
-          </div>
-
-          <div class="divide"></div>
-
-          <div class="post clearfix">
-            <img src="https://via.placeholder.com/80" alt="" class="post-image">
-            <div class="post-info">
-              <a href="#">
-                <h4 class="post-title">Before we were yours</h4>
-              </a>
-              <div style="font-size: 0.8em;">
-                <i class="fa fa-user-o"></i> Awa Melvine
-                &nbsp;
-                <i class="fa fa-calendar"></i> Jan 18, 2019
-              </div>
-            </div>
-          </div>
-
-          <div class="divide"></div>
-          <div class="post clearfix">
-            <img src="https://via.placeholder.com/80" alt="" class="post-image">
-            <div class="post-info">
-              <a href="#">
-                <h4 class="post-title">One day your life will flash before your eyes</h4>
-              </a>
-              <div style="font-size: 0.8em;">
-                <i class="fa fa-user-o"></i> Awa Melvine
-                &nbsp;
-                <i class="fa fa-calendar"></i> Jan 18, 2019
-              </div>
-            </div>
-          </div>
-
-          <div class="divide"></div>
-
-          <div class="post clearfix">
-            <img src="https://via.placeholder.com/80" alt="" class="post-image">
-            <div class="post-info">
-              <a href="#">
-                <h4 class="post-title">Before we were yours</h4>
-              </a>
-              <div style="font-size: 0.8em;">
-                <i class="fa fa-user-o"></i> Awa Melvine
-                &nbsp;
-                <i class="fa fa-calendar"></i> Jan 18, 2019
-              </div>
-            </div>
-          </div>
-
-          <div class="divide"></div>
-
-
-        </div>
-      </div>
     </div>
+    <!-- // content -->
 
   </div>
   <!-- // page wrapper -->
