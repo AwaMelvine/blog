@@ -13,11 +13,11 @@
   <link rel="stylesheet" href="main.css">
 
   <title>Motivational Blog</title>
-
 </head>
 
 <body>
 
+  <!-- header -->
   <header class="clearfix">
     <div class="logo">
       <img src="images/logo-placeholder.png" alt="Logo">
@@ -37,6 +37,7 @@
       </ul>
     </nav>
   </header>
+  <!-- // header -->
 
   <!-- Page wrapper -->
   <div class="page-wrapper">
@@ -102,14 +103,12 @@
         </div>
       </div>
     </div>
-    <!-- // posts slider -->
+    <!-- // Posts Slider -->
 
     <!-- content -->
     <div class="content clearfix">
       <div class="post-listing">
-
         <h1 class="recent-posts-title">Recent Posts</h1>
-
         <div class="post clearfix">
           <img src="images/image_1.png" class="post-image" alt="">
           <div class="post-content">
@@ -158,6 +157,48 @@
           </div>
         </div>
       </div>
+      <div class="sidebar">
+        <!-- Search -->
+        <div class="search-div">
+          <form action="index.php" method="post">
+            <input type="text" name="search-term" class="text-input" placeholder="Search...">
+          </form>
+        </div>
+        <!-- // Search -->
+
+        <!-- topics -->
+        <div class="topics">
+          <h2>Topics</h2>
+          <ul>
+            <a href="#">
+              <li>Poems</li>
+            </a>
+            <a href="#">
+              <li>Quotes</li>
+            </a>
+            <a href="#">
+              <li>Fiction</li>
+            </a>
+            <a href="#">
+              <li>Biography</li>
+            </a>
+            <a href="#">
+              <li>Motivation</li>
+            </a>
+            <a href="#">
+              <li>Inspiration</li>
+            </a>
+            <a href="#">
+              <li>Life Lessons</li>
+            </a>
+            <a href="#">
+              <li>Self Development</li>
+            </a>
+          </ul>
+        </div>
+        <!-- // topics -->
+
+      </div>
     </div>
     <!-- // content -->
 
@@ -167,42 +208,71 @@
   <!-- FOOTER -->
   <div class="footer">
     <div class="footer-content">
+      <div class="footer-section about">
+        <h2>About</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+          Accusantium aperiam iusto aspernatur neque dolore mollitia?
+        </p>
+        <!-- <br> -->
 
-      <div class="footer-section newsletter">
-        <h2>Newsletter</h2>
-        <p>Subscribe to our weekly newsletter</p>
-        <form action="index.php" method="post">
-          <input type="email" name="user_email" class="text-input" placeholder="E.g, user@example.com">
-          <button class="btn">Keep me posted</button>
-        </form>
-      </div>
+        <div class="contact">
+          <i class="fa fa-phone"> &nbsp; 123-456-789</i>
+          <i class="fa fa-envelope"> &nbsp; info@mywebsite.com</i>
+        </div>
 
-      <div class="footer-section other-links">
-        <h2>Other Links</h2>
-        <ul>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Terms and conditions</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-section social-links">
-        <h2>Follow Us</h2>
-        <div class="links">
-          <a href="#"><i class="fa fa-facebook-square" style="color: #4267b2;"></i></a>
-          <a href="#"><i class="fa fa-twitter-square" style="color: #00aced;"></i></a>
-          <a href="#"><i class="fa fa-google-plus-square" style="color: #dd4b39;"></i></a>
-          <a href="#"><i class="fa fa-linkedin-square" style="color: #0077B5;"></i></a>
+        <div class="social">
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-instagram"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-youtube-play"></i></a>
         </div>
 
       </div>
 
+      <div class="footer-section quick-links">
+        <h2>QUICK LINKS</h2>
+        <ul>
+          <a href="#">
+            <li>Events</li>
+          </a>
+          <a href="#">
+            <li>Contact</li>
+          </a>
+          <a href="#">
+            <li>Mentors</li>
+          </a>
+          <a href="#">
+            <li>Galleries</li>
+          </a>
+          <a href="#">
+            <li>Write for us</li>
+          </a>
+          <a href="#">
+            <li>Terms and conditions</li>
+          </a>
+        </ul>
+      </div>
+
+      <div class="footer-section contact-form-div">
+        <h2>Contact Us</h2>
+        <br>
+        <form action="index.php" method="post">
+          <input type="text" name="email-address" class="text-input contact-input" placeholder="Your email address">
+          <textarea name="message" cols="30" rows="3" class="text-input contact-input" placeholder="Message..."></textarea>
+          <button type="submit" name="send-msg-btn" class="send-msg-btn">
+            <i class="fa fa-send"></i> Send
+          </button>
+        </form>
+      </div>
+
     </div>
+
     <div class="footer-bottom">
       <p>© Coding Poets | Designed by Awa Melvine</p>
     </div>
   </div>
+  <!-- // FOOTER -->
 
 
   <!-- JQuery -->
