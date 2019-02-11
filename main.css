@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lora|Merriweather');
-html, body {
+
+html,
+body {
   padding: 0px;
   margin: 0px;
   font-family: 'Lora', serif;
@@ -12,11 +14,17 @@ a {
   color: inherit;
 }
 
-a:hover, a:active {
+a:hover,
+a:active {
   color: #008489;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Merriweather', serif;
   margin: 5px;
   color: #484848;
@@ -177,7 +185,7 @@ header nav ul a {
   margin: 40px auto 140px;
 }
 
-.content .post-listing {
+.content .page-content {
   width: 70%;
   margin: 0px auto;
   float: left;
@@ -219,7 +227,7 @@ header nav ul a {
   transition: all .5s ease-in-out;
 }
 
-.content .post-listing .post {
+.content .page-content .post {
   border-radius: 5px;
   height: 260px;
   width: 96%;
@@ -227,7 +235,7 @@ header nav ul a {
   background: #fff;
 }
 
-.content .post-listing .post .post-content {
+.content .page-content .post .post-content {
   width: 62.88%;
   height: 100%;
   position: relative;
@@ -236,15 +244,15 @@ header nav ul a {
   float: left;
 }
 
-.content .post-listing .post .post-title {
+.content .page-content .post .post-title {
   margin: 5px 0px;
 }
 
-.content .post-listing .recent-posts-title {
+.content .page-content .recent-posts-title {
   margin: 20px;
 }
 
-.content .post-listing .post .read-more {
+.content .page-content .post .read-more {
   text-decoration: none;
   color: inherit;
   border: 1px solid #8BC7C9;
@@ -255,26 +263,26 @@ header nav ul a {
   bottom: 20px;
 }
 
-.content .post-listing .post .read-more:hover {
+.content .page-content .post .read-more:hover {
   color: white;
   background: #008489;
   border: 1px solid #008489;
   transition: .5s;
 }
 
-.content .post-listing .post .post-body {
+.content .page-content .post .post-body {
   line-height: 1.7em;
   font-size: 1.03em;
   color: #444;
 }
 
-.content .post-listing .post .post-image {
+.content .page-content .post .post-image {
   width: 37%;
   height: inherit;
   float: left;
 }
 
-.content .post-listing .post .post-info {
+.content .page-content .post .post-info {
   color: #757575;
   font-size: 0.8em;
 }
@@ -396,21 +404,26 @@ header nav ul a {
     font-size: 30px;
     color: #ffffff;
   }
+
   .menu-toggle:before {
     content: '\f0c9';
     font-family: fontAwesome;
     line-height: 40px;
   }
+
   nav {
     width: 100%;
     background: #0E94A0;
   }
+
   nav ul {
     max-height: 0px;
   }
+
   .showing {
     max-height: 90em;
   }
+
   nav ul li {
     box-sizing: border-box;
     width: 100%;

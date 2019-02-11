@@ -42,69 +42,6 @@
   <!-- Page wrapper -->
   <div class="page-wrapper">
 
-    <!-- Posts Slider -->
-    <div class="posts-slider">
-      <h1 class="slider-title">Trending Posts</h1>
-      <i class="fa fa-chevron-right next"></i>
-      <i class="fa fa-chevron-left prev"></i>
-
-      <div class="posts">
-        <div class="post">
-          <div class="inner-post">
-            <img src="images/image_7.png" alt="" style="height: 200px; width: 100%; border-top-left-radius: 5px; border-top-right-radius: 5px;">
-            <div class="post-info">
-              <h3>One day your life will flash before your eyes</h3>
-              <div>
-                <i class="fa fa-user-o"></i> Awa Melvine
-                &nbsp;
-                <i class="fa fa-calendar"></i> Jan 18, 2019
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="post">
-          <div class="inner-post">
-            <img src="images/image_6.png" alt="" style="height: 200px; width: 100%; border-top-left-radius: 5px; border-top-right-radius: 5px;">
-            <div class="post-info">
-              <h3>One day your life will flash before your eyes</h3>
-              <div>
-                <i class="fa fa-user-o"></i> Awa Melvine
-                &nbsp;
-                <i class="fa fa-calendar"></i> Jan 18, 2019
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="post">
-          <div class="inner-post">
-            <img src="images/image_5.png" alt="" style="height: 200px; width: 100%; border-top-left-radius: 5px; border-top-right-radius: 5px;">
-            <div class="post-info">
-              <h3>One day your life will flash before your eyes</h3>
-              <div>
-                <i class="fa fa-user-o"></i> Awa Melvine
-                &nbsp;
-                <i class="fa fa-calendar"></i> Jan 18, 2019
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="post">
-          <div class="inner-post">
-            <img src="images/image_4.png" alt="" style="height: 200px; width: 100%; border-top-left-radius: 5px; border-top-right-radius: 5px;">
-            <div class="post-info">
-              <h3>One day your life will flash before your eyes</h3>
-              <div>
-                <i class="fa fa-user-o"></i> Awa Melvine
-                &nbsp;
-                <i class="fa fa-calendar"></i> Jan 18, 2019
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- // Posts Slider -->
-
     <!-- content -->
     <div class="content clearfix">
       <div class="page-content">
@@ -115,36 +52,6 @@
 
             <h2 class="post-title"><a href="#">One day your life will flash before your eyes.</a></h2>
 
-            <div class="post-info">
-              <i class="fa fa-user-o"></i> Awa Melvine
-              &nbsp;
-              <i class="fa fa-calendar"></i> Jan 18, 2019
-            </div>
-            <p class="post-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus expedita tempora
-              qui sunt! Ipsum nihil unde obcaecati.
-            </p>
-            <a href="#" class="read-more">Read More</a>
-          </div>
-        </div>
-        <div class="post clearfix">
-          <img src="images/image_2.png" class="post-image" alt="">
-          <div class="post-content">
-            <h2 class="post-title"><a href="#">Before we were yours</h2></a>
-            <div class="post-info">
-              <i class="fa fa-user-o"></i> Awa Melvine
-              &nbsp;
-              <i class="fa fa-calendar"></i> Jan 18, 2019
-            </div>
-            <p class="post-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus expedita tempora
-              qui sunt! Ipsum nihil unde obcaecati.
-            </p>
-            <a href="#" class="read-more">Read More</a>
-          </div>
-        </div>
-        <div class="post clearfix">
-          <img src="images/image_3.png" class="post-image" alt="">
-          <div class="post-content">
-            <h2 class="post-title"><a href="#">Before we were yours</a></h2>
             <div class="post-info">
               <i class="fa fa-user-o"></i> Awa Melvine
               &nbsp;
@@ -259,7 +166,8 @@
         <br>
         <form action="index.php" method="post">
           <input type="text" name="email-address" class="text-input contact-input" placeholder="Your email address">
-          <textarea name="message" cols="30" rows="3" class="text-input contact-input" placeholder="Message..."></textarea>
+          <textarea name="message" cols="30" rows="3" class="text-input contact-input"
+            placeholder="Message..."></textarea>
           <button type="submit" name="send-msg-btn" class="send-msg-btn">
             <i class="fa fa-send"></i> Send
           </button>
