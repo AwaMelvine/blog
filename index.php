@@ -167,7 +167,7 @@
         <!-- // Search -->
 
         <!-- topics -->
-        <div class="topics">
+        <div class="section topics">
           <h2>Topics</h2>
           <ul>
             <a href="#">

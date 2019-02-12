@@ -17,6 +17,15 @@
 
 <body>
 
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2&appId=285071545181837&autoLogAppEvents=1';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
   <!-- header -->
   <header class="clearfix">
     <div class="logo">
@@ -44,37 +53,116 @@
 
     <!-- content -->
     <div class="content clearfix">
-      <div class="page-content">
-        <h1 class="recent-posts-title">Recent Posts</h1>
-        <div class="post clearfix">
-          <img src="images/image_1.png" class="post-image" alt="">
-          <div class="post-content">
-
-            <h2 class="post-title"><a href="#">One day your life will flash before your eyes.</a></h2>
-
-            <div class="post-info">
-              <i class="fa fa-user-o"></i> Awa Melvine
-              &nbsp;
-              <i class="fa fa-calendar"></i> Jan 18, 2019
-            </div>
-            <p class="post-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus expedita tempora
-              qui sunt! Ipsum nihil unde obcaecati.
-            </p>
-            <a href="#" class="read-more">Read More</a>
-          </div>
-        </div>
+      <div class="page-content single">
+        <h2 style="text-align: center;">Something good is about to happen</h2>
+        <br>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quaerat expedita sapiente facere quia
+          voluptate
+          laboriosam eligendi, consequuntur excepturi asperiores. Voluptates nulla voluptas, nihil nobis saepe facilis
+          deleniti culpa ut.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quaerat expedita sapiente facere quia
+          voluptate
+          laboriosam eligendi, consequuntur excepturi asperiores. Voluptates nulla voluptas, nihil nobis saepe facilis
+          deleniti culpa ut.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quaerat expedita sapiente facere quia
+          voluptate
+          laboriosam eligendi, consequuntur excepturi asperiores. Voluptates nulla voluptas, nihil nobis saepe facilis
+          deleniti culpa ut.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quaerat expedita sapiente facere quia
+          voluptate
+          laboriosam eligendi, consequuntur excepturi asperiores. Voluptates nulla voluptas, nihil nobis saepe facilis
+          deleniti culpa ut.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quaerat expedita sapiente facere quia
+          voluptate
+          laboriosam eligendi, consequuntur excepturi asperiores. Voluptates nulla voluptas, nihil nobis saepe facilis
+          deleniti culpa ut.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quaerat expedita sapiente facere quia
+          voluptate
+          laboriosam eligendi, consequuntur excepturi asperiores. Voluptates nulla voluptas, nihil nobis saepe facilis
+          deleniti culpa ut.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quaerat expedita sapiente facere quia
+          voluptate
+          laboriosam eligendi, consequuntur excepturi asperiores. Voluptates nulla voluptas, nihil nobis saepe facilis
+          deleniti culpa ut.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quaerat expedita sapiente facere quia
+          voluptate
+          laboriosam eligendi, consequuntur excepturi asperiores. Voluptates nulla voluptas, nihil nobis saepe facilis
+          deleniti culpa ut.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quaerat expedita sapiente facere quia
+          voluptate
+          laboriosam eligendi, consequuntur excepturi asperiores. Voluptates nulla voluptas, nihil nobis saepe facilis
+          deleniti culpa ut.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quaerat expedita sapiente facere quia
+          voluptate
+          laboriosam eligendi, consequuntur excepturi asperiores. Voluptates nulla voluptas, nihil nobis saepe facilis
+          deleniti culpa ut.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quaerat expedita sapiente facere quia
+          voluptate
+          laboriosam eligendi, consequuntur excepturi asperiores. Voluptates nulla voluptas, nihil nobis saepe facilis
+          deleniti culpa ut.
+        </p>
       </div>
+
       <div class="sidebar">
-        <!-- Search -->
-        <div class="search-div">
-          <form action="index.php" method="post">
-            <input type="text" name="search-term" class="text-input" placeholder="Search...">
-          </form>
+        <!-- fb page -->
+        <div class="fb-page" data-href="https://www.facebook.com/Piece-of-Advice-1055745464557488/" data-small-header="false"
+          data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+          <blockquote cite="https://www.facebook.com/Piece-of-Advice-1055745464557488/" class="fb-xfbml-parse-ignore"><a
+              href="https://www.facebook.com/Piece-of-Advice-1055745464557488/">Piece of Advice</a></blockquote>
         </div>
-        <!-- // Search -->
+        <!-- // fb page -->
+
+        <!-- Popular Posts -->
+        <div class="section popular">
+          <h2>Popular</h2>
+
+          <div class="post clearfix">
+            <img src="images/image_1.png">
+            <a href="#" class="title">How to act inspite of your emotions</a>
+          </div>
+          <div class="post clearfix">
+            <img src="images/image_2.png">
+            <a href="#" class="title">How to act inspite of your emotions</a>
+          </div>
+          <div class="post clearfix">
+            <img src="images/image_3.png">
+            <a href="#" class="title">How to act inspite of your emotions</a>
+          </div>
+          <div class="post clearfix">
+            <img src="images/image_4.png">
+            <a href="#" class="title">How to act inspite of your emotions</a>
+          </div>
+          <div class="post clearfix">
+            <img src="images/image_5.png">
+            <a href="#" class="title">How to act inspite of your emotions</a>
+          </div>
+
+        </div>
+        <!-- // Popular Posts -->
 
         <!-- topics -->
-        <div class="topics">
+        <div class="section topics">
           <h2>Topics</h2>
           <ul>
             <a href="#">
@@ -166,8 +254,7 @@
         <br>
         <form action="index.php" method="post">
           <input type="text" name="email-address" class="text-input contact-input" placeholder="Your email address">
-          <textarea name="message" cols="30" rows="3" class="text-input contact-input"
-            placeholder="Message..."></textarea>
+          <textarea name="message" cols="30" rows="3" class="text-input contact-input" placeholder="Message..."></textarea>
           <button type="submit" name="send-msg-btn" class="send-msg-btn">
             <i class="fa fa-send"></i> Send
           </button>
