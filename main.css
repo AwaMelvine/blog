@@ -30,6 +30,12 @@ h6 {
   color: #484848;
 }
 
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
 .btn {
   display: inline-block;
   font-weight: 400;
@@ -65,50 +71,76 @@ h6 {
 }
 
 /* NAVBAR */
-
 header {
   background: #008489;
   color: #ffffff;
 }
 
-header .logo img {
-  height: 30px;
-  width: 100px;
-  margin: 15px 0px 15px 15px;
-  float: left;
+header a:hover {
+  color: white;
 }
 
 header nav {
   float: right;
 }
 
-.clearfix::after {
-  content: '';
-  display: block;
-  clear: both;
-}
-
 header nav ul {
-  overflow: hidden;
-  padding: 0px;
   margin: 0px;
-  text-align: center;
-  -webkit-transition: max-height 0.5s;
-  -ms-webkit-transition: max-height 0.5s;
-  -moz-transition: max-height 0.5s;
-  -o-transition: max-height 0.5s;
-  transition: max-height 0.5s;
+  padding: 0px;
+  list-style-type: none;
+  float: left;
 }
 
 header nav ul li {
-  display: inline-block;
+  float: left;
+  position: relative;
+}
+
+header nav ul li a {
+  display: block;
+  color: #fff;
   padding: 22px;
 }
 
-header nav ul a {
-  text-decoration: none;
-  color: inherit;
+header nav ul li ul {
+  display: none;
+  position: absolute;
+  right: 0px;
 }
+
+header nav ul li:hover ul {
+  display: block;
+}
+
+header nav ul li .dropdown .logout {
+  color: red;
+}
+
+header header nav ul li .dropdown .userinfo {
+  width: 130px;
+}
+
+header nav ul .userinfo i.fa-user {
+  font-size: 1.3em;
+  margin-right: 3px;
+}
+
+header nav ul .userinfo i.fa-chevron-down {
+  float: right;
+  font-size: .7em;
+  margin: 6px 3px;
+}
+
+header nav ul li .dropdown li {
+  width: 180px;
+}
+
+header nav ul li .dropdown li a {
+  background: #fff;
+  color: #444444;
+  padding: 10px;
+}
+
 
 .menu-toggle {
   display: none;
@@ -204,8 +236,13 @@ header nav ul a {
 .content .sidebar {
   width: 28%;
   float: left;
+  margin: 78px auto;
+}
+
+.content .sidebar.single {
   margin: 0px auto;
 }
+
 
 .content .sidebar .search-div {
   background: white;
