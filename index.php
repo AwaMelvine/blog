@@ -107,7 +107,7 @@
 
     <!-- content -->
     <div class="content clearfix">
-      <div class="post-listing">
+      <div class="page-content">
         <h1 class="recent-posts-title">Recent Posts</h1>
         <div class="post clearfix">
           <img src="images/image_1.png" class="post-image" alt="">
@@ -167,7 +167,7 @@
         <!-- // Search -->
 
         <!-- topics -->
-        <div class="topics">
+        <div class="section topics">
           <h2>Topics</h2>
           <ul>
             <a href="#">

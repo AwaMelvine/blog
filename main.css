@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lora|Merriweather');
-html, body {
+
+html,
+body {
   padding: 0px;
   margin: 0px;
   font-family: 'Lora', serif;
@@ -12,11 +14,17 @@ a {
   color: inherit;
 }
 
-a:hover, a:active {
+a:hover,
+a:active {
   color: #008489;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Merriweather', serif;
   margin: 5px;
   color: #484848;
@@ -178,16 +186,25 @@ header nav ul a {
   margin: 40px auto 140px;
 }
 
-.content .post-listing {
+.content .page-content {
   width: 70%;
   margin: 0px auto;
   float: left;
 }
 
+.content .page-content.single {
+  margin-right: 10px;
+  background: white;
+  padding: 20px 50px;
+  box-sizing: border-box;
+  font-size: 1.1em;
+  border-radius: 5px;
+}
+
 .content .sidebar {
   width: 28%;
   float: left;
-  margin: 78px auto;
+  margin: 0px auto;
 }
 
 .content .sidebar .search-div {
@@ -196,32 +213,49 @@ header nav ul a {
   border-radius: 5px;
 }
 
-.content .sidebar .topics {
+.content .sidebar .section {
   background: #ffffff;
   margin-top: 20px;
   border-radius: 5px;
   padding: 20px;
 }
 
-.content .sidebar .topics ul {
+.content .sidebar .section.topics ul {
   list-style-type: none;
   padding: 0px;
   border-bottom: 1px solid #e0e0e0;
 }
 
-.content .sidebar .topics ul a {
+.content .sidebar .section.topics ul a {
   display: block;
   padding: 15px;
   border-top: 1px solid #e0e0e0;
   transition: all .3s;
 }
 
-.content .sidebar .topics ul a:hover {
+.content .sidebar .section.topics ul a:hover {
   padding-left: 25px;
   transition: all .3s;
 }
 
-.content .post-listing .post {
+.content .sidebar .section.popular .post {
+  border-top: 1px solid #e0e0e0;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+.content .sidebar .section.popular .post .title {
+  width: 80%;
+}
+
+.content .sidebar .section.popular .post img {
+  width: 60px;
+  height: 60px;
+  float: left;
+  margin-right: 10px;
+}
+
+.content .page-content .post {
   border-radius: 5px;
   height: 260px;
   width: 96%;
@@ -229,7 +263,7 @@ header nav ul a {
   background: #fff;
 }
 
-.content .post-listing .post .post-content {
+.content .page-content .post .post-content {
   width: 62.88%;
   height: 100%;
   position: relative;
@@ -238,15 +272,15 @@ header nav ul a {
   float: left;
 }
 
-.content .post-listing .post .post-title {
+.content .page-content .post .post-title {
   margin: 5px 0px;
 }
 
-.content .post-listing .recent-posts-title {
+.content .page-content .recent-posts-title {
   margin: 20px;
 }
 
-.content .post-listing .post .read-more {
+.content .page-content .post .read-more {
   text-decoration: none;
   color: inherit;
   text-align: center;
@@ -258,26 +292,26 @@ header nav ul a {
   bottom: 20px;
 }
 
-.content .post-listing .post .read-more:hover {
+.content .page-content .post .read-more:hover {
   color: white;
   background: #008489;
   border: 1px solid #008489;
   transition: .5s;
 }
 
-.content .post-listing .post .post-body {
+.content .page-content .post .post-body {
   line-height: 1.7em;
   font-size: 1.03em;
   color: #444;
 }
 
-.content .post-listing .post .post-image {
+.content .page-content .post .post-image {
   width: 37%;
   height: inherit;
   float: left;
 }
 
-.content .post-listing .post .post-info {
+.content .page-content .post .post-info {
   color: #757575;
   font-size: 0.8em;
 }
@@ -403,21 +437,26 @@ header nav ul a {
     font-size: 30px;
     color: #ffffff;
   }
+
   .menu-toggle:before {
     content: '\f0c9';
     font-family: fontAwesome;
     line-height: 40px;
   }
+
   nav {
     width: 100%;
     background: #0E94A0;
   }
+
   nav ul {
     max-height: 0px;
   }
+
   .showing {
     max-height: 90em;
   }
+
   nav ul li {
     box-sizing: border-box;
     width: 100%;
@@ -426,14 +465,17 @@ header nav ul a {
 }
 
 @media only screen and (max-width: 974px) {
+
   /* CONTENT */
   .content {
     width: 100%;
   }
+
   /* FOOTER */
   .footer .footer-content .footer-section {
     padding: 20px;
   }
+
   .footer .footer-content .about .contact {
     margin-top: 18px;
   }
@@ -443,31 +485,37 @@ header nav ul a {
   .content {
     margin: 40px auto 50px;
   }
-  .content .post-listing {
+
+  .content .page-content {
     width: 100%;
   }
+
   .content .sidebar {
     width: 100%;
     margin-top: 40px;
     padding: 10px;
     box-sizing: border-box;
   }
+
   /* FOOTER */
   .footer {
     height: auto;
     padding: 50px;
   }
+
   .footer .footer-content {
     height: auto;
     display: flex;
     flex-direction: column;
   }
+
   .footer .footer-section {
     height: auto;
     display: block;
     padding: 100px auto;
     border-bottom: 1px solid rgb(34, 33, 33);
   }
+
   .footer .footer-section .send-msg-btn {
     width: 100%;
     padding: 8px auto;
@@ -479,29 +527,36 @@ header nav ul a {
     padding: 20px;
     padding-bottom: 60px;
   }
+
   .footer .footer-section {
     padding: 0px;
   }
-  .content .post-listing .post {
+
+  .content .page-content .post {
     height: auto;
   }
-  .content .post-listing .post .post-content {
+
+  .content .page-content .post .post-content {
     width: 100%;
     padding: 5px 15px;
   }
-  .content .post-listing .post .post-image {
+
+  .content .page-content .post .post-image {
     width: 100%;
   }
-  .content .post-listing .post .read-more {
+
+  .content .page-content .post .read-more {
     position: static;
     display: block;
     width: 100%;
     box-sizing: border-box;
     margin: 10px auto;
   }
+
   .page-wrapper .posts-slider .next {
     right: 10px;
   }
+
   .page-wrapper .posts-slider .prev {
     left: 10px;
   }
