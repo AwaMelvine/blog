@@ -106,10 +106,25 @@ header nav ul li ul {
   display: none;
   position: absolute;
   right: 0px;
+  z-index: 4;
 }
 
-header nav ul li:hover ul {
+header nav ul li:hover .dropdown {
   display: block;
+}
+
+header nav ul li .dropdown li {
+  width: 180px;
+}
+
+header nav ul li .dropdown li a {
+  background: #fff;
+  color: #444444;
+  padding: 10px;
+}
+
+header nav ul li .dropdown li a:hover {
+  background: #f0f0f0;
 }
 
 header nav ul li .dropdown .logout {
@@ -130,17 +145,6 @@ header nav ul .userinfo i.fa-chevron-down {
   font-size: .7em;
   margin: 6px 3px;
 }
-
-header nav ul li .dropdown li {
-  width: 180px;
-}
-
-header nav ul li .dropdown li a {
-  background: #fff;
-  color: #444444;
-  padding: 10px;
-}
-
 
 .menu-toggle {
   display: none;
@@ -242,7 +246,6 @@ header nav ul li .dropdown li a {
 .content .sidebar.single {
   margin: 0px auto;
 }
-
 
 .content .sidebar .search-div {
   background: white;
