@@ -124,7 +124,7 @@
         </p>
       </div>
 
-      <div class="sidebar">
+      <div class="sidebar single">
         <!-- fb page -->
         <div class="fb-page" data-href="https://www.facebook.com/Piece-of-Advice-1055745464557488/" data-small-header="false"
           data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
