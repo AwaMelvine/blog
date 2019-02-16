@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 
   <!-- Custom Styles -->
-  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="style.css">
 
   <title>Motivational Blog</title>
 </head>
@@ -28,7 +28,15 @@
         <li><a href="#">Home</a></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Services</a></li>
+        <li><a href="register.php">Sign up</a></li>
         <li>
+          <a href="login.php">
+            <i class="fa fa-sign-in"></i>
+            Login
+          </a>
+        </li>
+
+        <!-- <li>
           <a href="#" class="userinfo">
             <i class="fa fa-user"></i>
             Awa Melvine
@@ -38,7 +46,7 @@
             <li><a href="#">Dashboard</a></li>
             <li><a href="#" class="logout">logout</a></li>
           </ul>
-        </li>
+        </li> -->
       </ul>
     </nav>
   </header>

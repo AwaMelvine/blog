@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lora|Merriweather');
-html, body {
+
+html,
+body {
   padding: 0px;
   margin: 0px;
   font-family: 'Lora', serif;
@@ -12,11 +14,17 @@ a {
   color: inherit;
 }
 
-a:hover, a:active {
+a:hover,
+a:active {
   color: #008489;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Merriweather', serif;
   margin: 5px;
   color: #484848;
@@ -26,6 +34,27 @@ h1, h2, h3, h4, h5, h6 {
   content: '';
   display: block;
   clear: both;
+}
+
+.msg {
+  width: 100%;
+  list-style-type: none;
+  margin: 5px auto;
+  padding: 7px;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+.error {
+  color: #884b4b;
+  background: rgb(245, 188, 188);
+  border: 1px solid #6e3a3d;
+}
+
+.success {
+  color: #3a6e3a;
+  background: #bcf5bc;
+  border: 1px solid #3a6e3a;
 }
 
 .btn {
@@ -55,7 +84,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   box-sizing: border-box;
   margin-bottom: 10px;
-  padding: .7rem 1.2rem;
+  padding: .6rem 1.1rem;
   font-size: 1.25rem;
   line-height: 1.5;
   border-radius: .3rem;
@@ -349,6 +378,31 @@ header nav ul .userinfo i.fa-chevron-down {
   font-size: 0.8em;
 }
 
+
+.auth-content {
+  width: 30%;
+  margin: 50px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  font-size: 1.1em;
+}
+
+.auth-content .form-title {
+  text-align: center;
+}
+
+.auth-content .auth-nav {
+  margin: 5px auto;
+  text-align: center;
+  font-size: 1em;
+}
+
+.auth-content .auth-nav a {
+  text-decoration: underline;
+}
+
+
 /* FOOTER */
 
 .footer {
@@ -470,60 +524,78 @@ header nav ul .userinfo i.fa-chevron-down {
     font-size: 30px;
     color: #ffffff;
   }
+
   .menu-toggle:before {
     content: '\f0c9';
     font-family: fontAwesome;
     line-height: 40px;
   }
+
   nav {
     width: 100%;
     background: #0E94A0;
   }
+
   nav ul {
     max-height: 0px;
     overflow: hidden;
   }
+
   .showing {
     max-height: 95em;
   }
+
   nav ul li {
     box-sizing: border-box;
     width: 100%;
   }
+
   header nav ul li ul {
     position: static;
     box-sizing: border-box;
   }
+
   header nav ul li .dropdown {
     display: block;
     width: 100%;
   }
+
   header nav ul li .dropdown li {
     clear: both;
     width: 100%;
   }
+
   header nav ul li .dropdown li a {
     background: #0E94A0;
     color: white;
     padding: 15px;
     padding-left: 50px;
   }
+
   header nav ul li .dropdown li a:hover {
     background: #0E94A0;
   }
+
 }
 
 @media only screen and (max-width: 974px) {
+
   /* CONTENT */
   .content {
     width: 100%;
   }
+
   /* FOOTER */
   .footer .footer-content .footer-section {
     padding: 20px;
   }
+
   .footer .footer-content .about .contact {
     margin-top: 18px;
+  }
+
+  .auth-content {
+    width: 40%;
   }
 }
 
@@ -531,31 +603,37 @@ header nav ul .userinfo i.fa-chevron-down {
   .content {
     margin: 40px auto 50px;
   }
+
   .content .page-content {
     width: 100%;
   }
+
   .content .sidebar {
     width: 100%;
     margin-top: 40px;
     padding: 10px;
     box-sizing: border-box;
   }
+
   /* FOOTER */
   .footer {
     height: auto;
     padding: 50px;
   }
+
   .footer .footer-content {
     height: auto;
     display: flex;
     flex-direction: column;
   }
+
   .footer .footer-section {
     height: auto;
     display: block;
     padding: 100px auto;
     border-bottom: 1px solid rgb(34, 33, 33);
   }
+
   .footer .footer-section .send-msg-btn {
     width: 100%;
     padding: 8px auto;
@@ -567,19 +645,24 @@ header nav ul .userinfo i.fa-chevron-down {
     padding: 20px;
     padding-bottom: 60px;
   }
+
   .footer .footer-section {
     padding: 0px;
   }
+
   .content .page-content .post {
     height: auto;
   }
+
   .content .page-content .post .post-content {
     width: 100%;
     padding: 5px 15px;
   }
+
   .content .page-content .post .post-image {
     width: 100%;
   }
+
   .content .page-content .post .read-more {
     position: static;
     display: block;
@@ -587,10 +670,16 @@ header nav ul .userinfo i.fa-chevron-down {
     box-sizing: border-box;
     margin: 10px auto;
   }
+
   .page-wrapper .posts-slider .next {
     right: 10px;
   }
+
   .page-wrapper .posts-slider .prev {
     left: 10px;
+  }
+
+  .auth-content {
+    width: 80%;
   }
 }
