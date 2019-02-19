@@ -59,51 +59,39 @@
     <!-- Admin Content -->
     <div class="admin-content clearfix">
       <div class="button-group">
-        <a href="create.php" class="btn btn-sm">Add Post</a>
+        <a href="#" class="btn btn-sm">Add Post</a>
         <a href="#" class="btn btn-sm">Manage Posts</a>
       </div>
       <div class="">
-        <h2 style="text-align: center;">Manage Posts</h2>
-        <table>
-          <thead>
-            <th>N</th>
-            <th>Title</th>
-            <th>Author</th>
-            <th colspan="3">Action</th>
-          </thead>
-          <tbody>
-            <tr class="rec">
-              <td>1</td>
-              <td>
-                <a href="#">A replacement for new year resolutions - a 12 months challenge</a>
-              </td>
-              <td>Awa</td>
-              <td>Edit</td>
-              <td>Delete</td>
-              <td>Publish</td>
-            </tr>
-            <tr class="rec">
-              <td>2</td>
-              <td>
-                <a href="#">Why life is beautiful</a>
-              </td>
-              <td>Awa</td>
-              <td>Edit</td>
-              <td>Delete</td>
-              <td>Publish</td>
-            </tr>
-            <tr class="rec">
-              <td>3</td>
-              <td>
-                <a href="#">Interesting facts about the history of the world</a>
-              </td>
-              <td>Awa</td>
-              <td>Edit</td>
-              <td>Delete</td>
-              <td>Publish</td>
-            </tr>
-          </tbody>
-        </table>
+        <h2 style="text-align: center;">Create Post</h2>
+
+        <form action="create.php" method="post">
+          <div class="input-group">
+            <label>Title</label>
+            <input type="text" name="title" class="text-input">
+          </div>
+          <div class="input-group">
+            <label>Body</label>
+            <textarea class="text-input body"></textarea>
+          </div>
+          <div class="input-group">
+            <label>Topic</label>
+            <select class="text-input">
+              <option>Life</option>
+              <option>Poetry</option>
+              <option>Inspiration</option>
+              <option>Life Lessons</option>
+            </select>
+          </div>
+          <div class="input-group">
+            <label>
+              <input type="checkbox" name="publish" /> Publish
+            </label>
+          </div>
+          <div class="input-group">
+            <button type="submit" class="btn" >Save Post</button>
+          </div>
+        </form>
 
       </div>
     </div>
