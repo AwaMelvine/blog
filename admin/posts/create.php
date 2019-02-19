@@ -72,7 +72,7 @@
           </div>
           <div class="input-group">
             <label>Body</label>
-            <textarea class="text-input body"></textarea>
+            <textarea class="text-input" id="body"></textarea>
           </div>
           <div class="input-group">
             <label>Topic</label>
@@ -103,6 +103,10 @@
   <!-- JQuery -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
+  <!-- CKEditor 5 -->
+  <script src="https://cdn.ckeditor.com/ckeditor5/11.2.0/classic/ckeditor.js"></script>
+
+  <!-- Custome Scripts -->
   <script src="../../scripts.js"></script>
 
 </body>
