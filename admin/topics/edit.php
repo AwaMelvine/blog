@@ -15,7 +15,7 @@
   <!-- Admin Styling -->
   <link rel="stylesheet" href="../../admin.css">
 
-  <title>Admin - Manage Topics</title>
+  <title>Admin - Update Topic</title>
 </head>
 
 <body>
@@ -50,7 +50,7 @@
     <div class="left-sidebar">
       <ul>
         <li><a href="../posts/index.php">Manage Posts</a></li>
-        <li><a href="index.php">Manage Topics</a></li>
+        <li><a href="../topics/index.php">Manage Topics</a></li>
         <li><a href="../users/index.php">Manage Users</a></li>
       </ul>
     </div>
@@ -63,65 +63,21 @@
         <a href="index.php" class="btn btn-sm">Manage Topics</a>
       </div>
       <div class="">
-        <h2 style="text-align: center;">Manage Topic</h2>
-        
-        <table>
-          <thead>
-            <th>N</th>
-            <th>Name</th>
-            <th colspan="2">Action</th>
-          </thead>
-          <tbody>
-            <tr class="rec">
-              <td>1</td>
-              <td>
-                <a href="#">Life</a>
-              </td>
-              <td>
-                <a href="#" class="edit">
-                  Edit
-                </a>
-              </td>
-              <td>
-                <a href="#" class="delete">
-                  Delete
-                </a>
-              </td>
-            </tr>
-            <tr class="rec">
-              <td>2</td>
-              <td>
-                <a href="#">Poetry</a>
-              </td>
-              <td>
-                <a href="#" class="edit">
-                  Edit
-                </a>
-              </td>
-              <td>
-                <a href="#" class="delete">
-                  Delete
-                </a>
-              </td>
-            </tr>
-            <tr class="rec">
-              <td>3</td>
-              <td>
-                <a href="#">Life Lessons</a>
-              </td>
-              <td>
-                <a href="#" class="edit">
-                  Edit
-                </a>
-              </td>
-              <td>
-                <a href="#" class="delete">
-                  Delete
-                </a>
-              </td>
-            </tr>
-          </tbody>
-        </table>
+        <h2 style="text-align: center;">Update Topic</h2>
+
+        <form action="create.php" method="post">
+          <div class="input-group">
+            <label>Name</label>
+            <input type="text" name="name" class="text-input">
+          </div>
+          <div class="input-group">
+            <label>Description</label>
+            <textarea class="text-input" name="description" id="description"></textarea>
+          </div>
+          <div class="input-group">
+            <button type="submit" name="update-topic" class="btn" >Update Topic</button>
+          </div>
+        </form>
 
       </div>
     </div>
@@ -133,6 +89,10 @@
   <!-- JQuery -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
+  <!-- CKEditor 5 -->
+  <script src="https://cdn.ckeditor.com/ckeditor5/11.2.0/classic/ckeditor.js"></script>
+
+  <!-- Custome Scripts -->
   <script src="../../scripts.js"></script>
 
 </body>

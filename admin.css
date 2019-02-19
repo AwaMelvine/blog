@@ -37,7 +37,7 @@ header {
   float: left;
   box-sizing: border-box;
   padding: 40px 100px 100px;
-  overflow: scroll;
+  overflow-y: scroll;
   background: #fff;
 }
 

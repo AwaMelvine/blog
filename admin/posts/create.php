@@ -72,11 +72,11 @@
           </div>
           <div class="input-group">
             <label>Body</label>
-            <textarea class="text-input" id="body"></textarea>
+            <textarea class="text-input" name="body" id="body"></textarea>
           </div>
           <div class="input-group">
             <label>Topic</label>
-            <select class="text-input">
+            <select class="text-input" name="topic">
               <option>Life</option>
               <option>Poetry</option>
               <option>Inspiration</option>
@@ -89,7 +89,7 @@
             </label>
           </div>
           <div class="input-group">
-            <button type="submit" class="btn" >Save Post</button>
+            <button type="submit" name="save-post" class="btn" >Save Post</button>
           </div>
         </form>
 
