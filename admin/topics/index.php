@@ -15,7 +15,7 @@
   <!-- Admin Styling -->
   <link rel="stylesheet" href="../../admin.css">
 
-  <title>Admin - Manage Posts</title>
+  <title>Admin - Manage Topics</title>
 </head>
 
 <body>
@@ -49,8 +49,8 @@
     <!-- Left Sidebar -->
     <div class="left-sidebar">
       <ul>
-        <li><a href="index.php">Manage Posts</a></li>
-        <li><a href="#">Manage Topics</a></li>
+        <li><a href="../posts/index.php">Manage Posts</a></li>
+        <li><a href="index.php">Manage Topics</a></li>
         <li><a href="#">Manage Users</a></li>
       </ul>
     </div>
@@ -59,25 +59,24 @@
     <!-- Admin Content -->
     <div class="admin-content clearfix">
       <div class="button-group">
-        <a href="create.php" class="btn btn-sm">Add Post</a>
-        <a href="index.php" class="btn btn-sm">Manage Posts</a>
+        <a href="create.php" class="btn btn-sm">Add Topic</a>
+        <a href="index.php" class="btn btn-sm">Manage Topics</a>
       </div>
       <div class="">
-        <h2 style="text-align: center;">Manage Posts</h2>
+        <h2 style="text-align: center;">Manage Topic</h2>
+        
         <table>
           <thead>
             <th>N</th>
-            <th>Title</th>
-            <th>Author</th>
-            <th colspan="3">Action</th>
+            <th>Name</th>
+            <th colspan="2">Action</th>
           </thead>
           <tbody>
             <tr class="rec">
               <td>1</td>
               <td>
-                <a href="#">A replacement for new year resolutions - a 12 months challenge</a>
+                <a href="#">Life</a>
               </td>
-              <td>Awa</td>
               <td>
                 <a href="#" class="edit">
                   Edit
@@ -86,20 +85,14 @@
               <td>
                 <a href="#" class="delete">
                   Delete
-                </a>
-              </td>
-              <td>
-                <a href="#" class="publish">
-                  Publish
                 </a>
               </td>
             </tr>
             <tr class="rec">
               <td>2</td>
               <td>
-                <a href="#">Why life is beautiful</a>
+                <a href="#">Poetry</a>
               </td>
-              <td>Awa</td>
               <td>
                 <a href="#" class="edit">
                   Edit
@@ -108,20 +101,14 @@
               <td>
                 <a href="#" class="delete">
                   Delete
-                </a>
-              </td>
-              <td>
-                <a href="#" class="publish">
-                  Publish
                 </a>
               </td>
             </tr>
             <tr class="rec">
               <td>3</td>
               <td>
-                <a href="#">Interesting facts about the history of the world</a>
+                <a href="#">Life Lessons</a>
               </td>
-              <td>Awa</td>
               <td>
                 <a href="#" class="edit">
                   Edit
@@ -130,11 +117,6 @@
               <td>
                 <a href="#" class="delete">
                   Delete
-                </a>
-              </td>
-              <td>
-                <a href="#" class="publish">
-                  Publish
                 </a>
               </td>
             </tr>

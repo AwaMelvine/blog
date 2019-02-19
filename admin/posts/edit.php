@@ -15,7 +15,7 @@
   <!-- Admin Styling -->
   <link rel="stylesheet" href="../../admin.css">
 
-  <title>Admin - Manage Posts</title>
+  <title>Admin - Edit Post</title>
 </head>
 
 <body>
@@ -49,7 +49,7 @@
     <!-- Left Sidebar -->
     <div class="left-sidebar">
       <ul>
-        <li><a href="#">Manage Posts</a></li>
+        <li><a href="index.php">Manage Posts</a></li>
         <li><a href="#">Manage Topics</a></li>
         <li><a href="#">Manage Users</a></li>
       </ul>
@@ -59,8 +59,8 @@
     <!-- Admin Content -->
     <div class="admin-content clearfix">
       <div class="button-group">
-        <a href="#" class="btn btn-sm">Add Post</a>
-        <a href="#" class="btn btn-sm">Manage Posts</a>
+        <a href="create.php" class="btn btn-sm">Add Post</a>
+        <a href="index.php" class="btn btn-sm">Manage Posts</a>
       </div>
       <div class="">
         <h2 style="text-align: center;">Edit Post</h2>

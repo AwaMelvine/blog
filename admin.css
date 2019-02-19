@@ -50,6 +50,10 @@ header {
   width: unset;
 }
 
+.admin-wrapper .admin-content a {
+  text-decoration: unset;
+}
+
 table {
   width: 100%;
   border-collapse: collapse;

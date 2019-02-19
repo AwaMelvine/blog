@@ -15,7 +15,7 @@
   <!-- Admin Styling -->
   <link rel="stylesheet" href="../../admin.css">
 
-  <title>Admin - Manage Posts</title>
+  <title>Admin - Create Post</title>
 </head>
 
 <body>
@@ -49,7 +49,7 @@
     <!-- Left Sidebar -->
     <div class="left-sidebar">
       <ul>
-        <li><a href="#">Manage Posts</a></li>
+        <li><a href="index.php">Manage Posts</a></li>
         <li><a href="#">Manage Topics</a></li>
         <li><a href="#">Manage Users</a></li>
       </ul>

@@ -103,7 +103,21 @@ h6 {
   font-family: 'Lora', serif;
 }
 
+.delete {
+  color: red;
+}
 
+.edit {
+  color: blue;
+}
+
+.publish {
+  color: green;
+}
+
+.unpublish {
+  color: orange;
+}
 
 /* NAVBAR */
 
