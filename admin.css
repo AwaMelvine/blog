@@ -1,0 +1,80 @@
+header {
+  background: #001f20;
+  color: #ffffff;
+}
+
+.admin-wrapper {
+  height: calc(100% - 65px);
+  box-sizing: border-box;
+}
+
+.admin-wrapper .left-sidebar {
+  width: 20%;
+  height: 100%;
+  float: left;
+  background: #013638;
+}
+
+.admin-wrapper .left-sidebar ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  color: white;
+}
+
+.admin-wrapper .left-sidebar ul li {
+  border-bottom: 1px solid #6da6aa;
+}
+
+.admin-wrapper .left-sidebar ul li a {
+  display: block;
+  padding: 15px 20px;
+}
+
+.admin-wrapper .admin-content {
+  width: 80%;
+  height: 100%;
+  float: left;
+  box-sizing: border-box;
+  padding: 40px 100px 100px;
+  overflow-y: scroll;
+  background: #fff;
+}
+
+.admin-wrapper .admin-content .button-group {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.admin-wrapper .admin-content .button-group .btn {
+  width: unset;
+}
+
+.admin-wrapper .admin-content a {
+  text-decoration: unset;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1.1em;
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+@media (max-width: 768px) {
+  nav {
+    width: 100%;
+    background: #054247;
+  }
+  header nav ul li .dropdown li a {
+    background: #054247;
+  }
+  header nav ul li .dropdown li a:hover {
+    background: #054247;
+  }
+}
