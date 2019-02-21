@@ -50,8 +50,8 @@
     <div class="left-sidebar">
       <ul>
         <li><a href="index.php">Manage Posts</a></li>
-        <li><a href="#">Manage Topics</a></li>
-        <li><a href="#">Manage Users</a></li>
+        <li><a href="../topics/index.php">Manage Topics</a></li>
+        <li><a href="../users/index.php">Manage Users</a></li>
       </ul>
     </div>
     <!-- // Left Sidebar -->

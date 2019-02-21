@@ -15,7 +15,7 @@
   <!-- Admin Styling -->
   <link rel="stylesheet" href="../../admin.css">
 
-  <title>Admin - Create Post</title>
+  <title>Admin - Manage Users</title>
 </head>
 
 <body>
@@ -59,39 +59,36 @@
     <!-- Admin Content -->
     <div class="admin-content clearfix">
       <div class="button-group">
-        <a href="#" class="btn btn-sm">Add Post</a>
-        <a href="#" class="btn btn-sm">Manage Posts</a>
+        <a href="create.php" class="btn btn-sm">Add User</a>
+        <a href="index.php" class="btn btn-sm">Manage Users</a>
       </div>
       <div class="">
-        <h2 style="text-align: center;">Create Post</h2>
-
-        <form action="create.php" method="post">
-          <div class="input-group">
-            <label>Title</label>
-            <input type="text" name="title" class="text-input">
-          </div>
-          <div class="input-group">
-            <label>Body</label>
-            <textarea class="text-input" name="body" id="body"></textarea>
-          </div>
-          <div class="input-group">
-            <label>Topic</label>
-            <select class="text-input" name="topic">
-              <option>Life</option>
-              <option>Poetry</option>
-              <option>Inspiration</option>
-              <option>Life Lessons</option>
-            </select>
-          </div>
-          <div class="input-group">
-            <label>
-              <input type="checkbox" name="publish" /> Publish
-            </label>
-          </div>
-          <div class="input-group">
-            <button type="submit" name="save-post" class="btn" >Save Post</button>
-          </div>
-        </form>
+        <h2 style="text-align: center;">Manage Users</h2>
+        <table>
+          <thead>
+            <th>N</th>
+            <th>Username</th>
+            <th colspan="3">Action</th>
+          </thead>
+          <tbody>
+            <tr class="rec">
+              <td>1</td>
+              <td>
+                <a href="#">Awa Melvine</a>
+              </td>
+              <td>
+                <a href="edit.php" class="edit">
+                  Edit
+                </a>
+              </td>
+              <td>
+                <a href="#" class="delete">
+                  Delete
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
 
       </div>
     </div>
@@ -103,10 +100,6 @@
   <!-- JQuery -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-  <!-- CKEditor 5 -->
-  <script src="https://cdn.ckeditor.com/ckeditor5/11.2.0/classic/ckeditor.js"></script>
-
-  <!-- Custome Scripts -->
   <script src="../../scripts.js"></script>
 
 </body>

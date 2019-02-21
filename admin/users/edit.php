@@ -15,7 +15,7 @@
   <!-- Admin Styling -->
   <link rel="stylesheet" href="../../admin.css">
 
-  <title>Admin - Create Post</title>
+  <title>Admin - Create Admin User</title>
 </head>
 
 <body>
@@ -49,7 +49,7 @@
     <!-- Left Sidebar -->
     <div class="left-sidebar">
       <ul>
-        <li><a href="index.php">Manage Posts</a></li>
+        <li><a href="../posts/index.php">Manage Posts</a></li>
         <li><a href="../topics/index.php">Manage Topics</a></li>
         <li><a href="../users/index.php">Manage Users</a></li>
       </ul>
@@ -59,37 +59,41 @@
     <!-- Admin Content -->
     <div class="admin-content clearfix">
       <div class="button-group">
-        <a href="#" class="btn btn-sm">Add Post</a>
-        <a href="#" class="btn btn-sm">Manage Posts</a>
+        <a href="create.php" class="btn btn-sm">Add User</a>
+        <a href="index.php" class="btn btn-sm">Manage Users</a>
       </div>
       <div class="">
-        <h2 style="text-align: center;">Create Post</h2>
+        <h2 style="text-align: center;">Create User</h2>
 
         <form action="create.php" method="post">
+          <!-- <div class="msg error">
+            <li>Username required</li>
+          </div> -->
           <div class="input-group">
-            <label>Title</label>
-            <input type="text" name="title" class="text-input">
+            <label>Username</label>
+            <input type="text" name="username" class="text-input">
           </div>
           <div class="input-group">
-            <label>Body</label>
-            <textarea class="text-input" name="body" id="body"></textarea>
+            <label>Email</label>
+            <input type="email" name="email" class="text-input">
           </div>
           <div class="input-group">
-            <label>Topic</label>
-            <select class="text-input" name="topic">
-              <option>Life</option>
-              <option>Poetry</option>
-              <option>Inspiration</option>
-              <option>Life Lessons</option>
+            <label>Password</label>
+            <input type="password" name="password" class="text-input">
+          </div>
+          <div class="input-group">
+            <label>Confirm Password</label>
+            <input type="password" name="passwordConf" class="text-input">
+          </div>
+          <div class="input-group">
+            <label>Role</label>
+            <select class="text-input" name="role">
+              <option value="user">User</option>
+              <option value="admin">Admin</option>
             </select>
           </div>
           <div class="input-group">
-            <label>
-              <input type="checkbox" name="publish" /> Publish
-            </label>
-          </div>
-          <div class="input-group">
-            <button type="submit" name="save-post" class="btn" >Save Post</button>
+            <button type="submit" name="save-user" class="btn">Save User</button>
           </div>
         </form>
 
