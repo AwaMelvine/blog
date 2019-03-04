@@ -20,12 +20,14 @@
   <!-- header -->
   <header class="clearfix">
     <div class="logo">
-      <!-- <img src="images/logo-placeholder.png" alt="Logo"> -->
+      <a href="index.php">
+        <h1 class="logo-text"><span>Awa</span>Inspires</h1>
+      </a>
     </div>
     <div class="fa fa-reorder menu-toggle"></div>
     <nav>
       <ul>
-        <li><a href="#">Home</a></li>
+        <li><a href="index.php">Home</a></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Services</a></li>
         <li><a href="register.php">Sign up</a></li>
@@ -75,7 +77,7 @@
 
   <!-- JQuery -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  
+
   <script src="scripts.js"></script>
 
 </body>

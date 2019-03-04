@@ -12,7 +12,7 @@
   <!-- Custom Styles -->
   <link rel="stylesheet" href="style.css">
 
-  <title>Motivational Blog</title>
+  <title>Awa Inspires Blog</title>
 </head>
 
 <body>
@@ -20,33 +20,35 @@
   <!-- header -->
   <header class="clearfix">
     <div class="logo">
-      <!-- <img src="images/logo-placeholder.png" alt="Logo"> -->
+      <a href="index.php">
+        <h1 class="logo-text"><span>Awa</span>Inspires</h1>
+      </a>
     </div>
     <div class="fa fa-reorder menu-toggle"></div>
     <nav>
       <ul>
-        <li><a href="#">Home</a></li>
+        <li><a href="index.php">Home</a></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Services</a></li>
-        <li><a href="register.php">Sign up</a></li>
+        <!-- <li><a href="register.php">Sign up</a></li>
         <li>
           <a href="login.php">
             <i class="fa fa-sign-in"></i>
             Login
           </a>
-        </li>
+        </li> -->
 
-        <!-- <li>
+        <li>
           <a href="#" class="userinfo">
             <i class="fa fa-user"></i>
             Awa Melvine
             <i class="fa fa-chevron-down"></i>
           </a>
           <ul class="dropdown">
-            <li><a href="#">Dashboard</a></li>
+            <li><a href="admin/posts/index.php">Dashboard</a></li>
             <li><a href="#" class="logout">logout</a></li>
           </ul>
-        </li> -->
+        </li>
       </ul>
     </nav>
   </header>
@@ -61,17 +63,17 @@
       <i class="fa fa-chevron-right next"></i>
       <i class="fa fa-chevron-left prev"></i>
 
-      <div class="posts">
+      <div class="posts-wrapper">
         <div class="post">
           <div class="inner-post">
             <img src="images/image_7.png" alt="" style="height: 200px; width: 100%; border-top-left-radius: 5px; border-top-right-radius: 5px;">
             <div class="post-info">
-              <h3>One day your life will flash before your eyes</h3>
-              <div>
-                <i class="fa fa-user-o"></i> Awa Melvine
-                &nbsp;
-                <i class="fa fa-calendar"></i> Jan 18, 2019
-              </div>
+              <h4><a href="single.php">One day your life will flash before your eyes</a></h3>
+                <div>
+                  <i class="fa fa-user-o"></i> Awa Melvine
+                  &nbsp;
+                  <i class="fa fa-calendar"></i> Jan 18, 2019
+                </div>
             </div>
           </div>
         </div>
@@ -79,12 +81,12 @@
           <div class="inner-post">
             <img src="images/image_6.png" alt="" style="height: 200px; width: 100%; border-top-left-radius: 5px; border-top-right-radius: 5px;">
             <div class="post-info">
-              <h3>One day your life will flash before your eyes</h3>
-              <div>
-                <i class="fa fa-user-o"></i> Awa Melvine
-                &nbsp;
-                <i class="fa fa-calendar"></i> Jan 18, 2019
-              </div>
+              <h4><a href="single.php">One day your life will flash before your eyes</a></h3>
+                <div>
+                  <i class="fa fa-user-o"></i> Awa Melvine
+                  &nbsp;
+                  <i class="fa fa-calendar"></i> Jan 18, 2019
+                </div>
             </div>
           </div>
         </div>
@@ -92,12 +94,12 @@
           <div class="inner-post">
             <img src="images/image_5.png" alt="" style="height: 200px; width: 100%; border-top-left-radius: 5px; border-top-right-radius: 5px;">
             <div class="post-info">
-              <h3>One day your life will flash before your eyes</h3>
-              <div>
-                <i class="fa fa-user-o"></i> Awa Melvine
-                &nbsp;
-                <i class="fa fa-calendar"></i> Jan 18, 2019
-              </div>
+              <h4><a href="single.php">One day your life will flash before your eyes</a></h3>
+                <div>
+                  <i class="fa fa-user-o"></i> Awa Melvine
+                  &nbsp;
+                  <i class="fa fa-calendar"></i> Jan 18, 2019
+                </div>
             </div>
           </div>
         </div>
@@ -105,7 +107,7 @@
           <div class="inner-post">
             <img src="images/image_4.png" alt="" style="height: 200px; width: 100%; border-top-left-radius: 5px; border-top-right-radius: 5px;">
             <div class="post-info">
-              <h3>One day your life will flash before your eyes</h3>
+              <h4><a href="single.php">One day your life will flash before your eyes</a></h4>
               <div>
                 <i class="fa fa-user-o"></i> Awa Melvine
                 &nbsp;
@@ -126,7 +128,7 @@
           <img src="images/image_1.png" class="post-image" alt="">
           <div class="post-content">
 
-            <h2 class="post-title"><a href="#">One day your life will flash before your eyes.</a></h2>
+            <h2 class="post-title"><a href="#">The strongest and sweetest songs yet remain to be sung</a></h2>
 
             <div class="post-info">
               <i class="fa fa-user-o"></i> Awa Melvine
@@ -142,7 +144,7 @@
         <div class="post clearfix">
           <img src="images/image_2.png" class="post-image" alt="">
           <div class="post-content">
-            <h2 class="post-title"><a href="#">Before we were yours</h2></a>
+            <h2 class="post-title"><a href="#">That love is all there is, is all we know of love</h2></a>
             <div class="post-info">
               <i class="fa fa-user-o"></i> Awa Melvine
               &nbsp;
@@ -157,7 +159,7 @@
         <div class="post clearfix">
           <img src="images/image_3.png" class="post-image" alt="">
           <div class="post-content">
-            <h2 class="post-title"><a href="#">Before we were yours</a></h2>
+            <h2 class="post-title"><a href="#">Do anything, but let it produce joy</a></h2>
             <div class="post-info">
               <i class="fa fa-user-o"></i> Awa Melvine
               &nbsp;
@@ -222,10 +224,11 @@
   <div class="footer">
     <div class="footer-content">
       <div class="footer-section about">
-        <h2>About</h2>
+        <h1 class="logo-text">Awa<span>Inspires</span></h1>
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-          Accusantium aperiam iusto aspernatur neque dolore mollitia?
+          AwaInspires is a fictional blog conceived for the purpose
+          of a tutorial on YouTube. However, Awa has a blog called pieceofadvice.org
+          where he writes truly inspiring stuff.
         </p>
         <!-- <br> -->
 
