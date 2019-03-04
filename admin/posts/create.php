@@ -59,8 +59,8 @@
     <!-- Admin Content -->
     <div class="admin-content clearfix">
       <div class="button-group">
-        <a href="#" class="btn btn-sm">Add Post</a>
-        <a href="#" class="btn btn-sm">Manage Posts</a>
+        <a href="create.php" class="btn btn-sm">Add Post</a>
+        <a href="index.php" class="btn btn-sm">Manage Posts</a>
       </div>
       <div class="">
         <h2 style="text-align: center;">Create Post</h2>
@@ -89,7 +89,7 @@
             </label>
           </div>
           <div class="input-group">
-            <button type="submit" name="save-post" class="btn" >Save Post</button>
+            <button type="submit" name="save-post" class="btn">Save Post</button>
           </div>
         </form>
 

@@ -15,7 +15,7 @@
   <!-- Admin Styling -->
   <link rel="stylesheet" href="../../admin.css">
 
-  <title>Admin - Manage Posts</title>
+  <title>Admin - Manage Drafts</title>
 </head>
 
 <body>
@@ -28,7 +28,7 @@
     <div class="fa fa-reorder menu-toggle"></div>
     <nav>
       <ul>
-        <li><a href="../../index.php">Home</a></li>
+        <li><a href="#">Home</a></li>
         <li>
           <a href="#" class="userinfo">
             <i class="fa fa-user"></i>
@@ -61,9 +61,10 @@
       <div class="button-group">
         <a href="create.php" class="btn btn-sm">Add Post</a>
         <a href="index.php" class="btn btn-sm">Manage Posts</a>
+        <a href="index.php" class="btn btn-sm">Manage Drafts</a>
       </div>
       <div class="">
-        <h2 style="text-align: center;">Manage Posts</h2>
+        <h2 style="text-align: center;">Manage Drafts</h2>
         <table>
           <thead>
             <th>N</th>
@@ -79,7 +80,7 @@
               </td>
               <td>Awa</td>
               <td>
-                <a href="edit.php" class="edit">
+                <a href="#" class="edit">
                   Edit
                 </a>
               </td>
@@ -101,7 +102,7 @@
               </td>
               <td>Awa</td>
               <td>
-                <a href="edit.php" class="edit">
+                <a href="#" class="edit">
                   Edit
                 </a>
               </td>
@@ -123,7 +124,7 @@
               </td>
               <td>Awa</td>
               <td>
-                <a href="edit.php" class="edit">
+                <a href="#" class="edit">
                   Edit
                 </a>
               </td>
