@@ -256,7 +256,6 @@ header nav ul .userinfo i.fa-chevron-down {
 
 .page-wrapper .post-slider .post-wrapper {
   height: 350px;
-  border: 1px solid red;
   width: 84%;
   margin: 0px auto;
   overflow: hidden;
@@ -270,7 +269,6 @@ header nav ul .userinfo i.fa-chevron-down {
   border-radius: 5px;
   background: #fff;
   box-shadow: 0 1.2rem 1.2rem -1rem #0a0a0a33;
-  border: 1px dashed green;
 }
 
 .page-wrapper .post-slider .post-wrapper .post .post-slider-image {
