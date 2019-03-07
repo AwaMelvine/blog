@@ -58,61 +58,59 @@
   <div class="page-wrapper">
 
     <!-- Posts Slider -->
-    <div class="posts-slider">
+    <div class="post-slider">
       <h1 class="slider-title">Trending Posts</h1>
       <i class="fa fa-chevron-right next"></i>
       <i class="fa fa-chevron-left prev"></i>
 
-      <div class="posts-wrapper">
+      <div class="post-wrapper">
         <div class="post">
           <div class="inner-post">
-            <img src="images/image_7.png" alt="" style="height: 200px; width: 100%; border-top-left-radius: 5px; border-top-right-radius: 5px;">
+            <img src="images/image_7.png" alt="" class="post-slider-image">
             <div class="post-info">
-              <h4><a href="single.php">One day your life will flash before your eyes</a></h3>
-                <div>
-                  <i class="fa fa-user-o"></i> Awa Melvine
-                  &nbsp;
-                  <i class="fa fa-calendar"></i> Jan 18, 2019
-                </div>
-            </div>
-          </div>
-        </div>
-        <div class="post">
-          <div class="inner-post">
-            <img src="images/image_6.png" alt="" style="height: 200px; width: 100%; border-top-left-radius: 5px; border-top-right-radius: 5px;">
-            <div class="post-info">
-              <h4><a href="single.php">One day your life will flash before your eyes</a></h3>
-                <div>
-                  <i class="fa fa-user-o"></i> Awa Melvine
-                  &nbsp;
-                  <i class="fa fa-calendar"></i> Jan 18, 2019
-                </div>
-            </div>
-          </div>
-        </div>
-        <div class="post">
-          <div class="inner-post">
-            <img src="images/image_5.png" alt="" style="height: 200px; width: 100%; border-top-left-radius: 5px; border-top-right-radius: 5px;">
-            <div class="post-info">
-              <h4><a href="single.php">One day your life will flash before your eyes</a></h3>
-                <div>
-                  <i class="fa fa-user-o"></i> Awa Melvine
-                  &nbsp;
-                  <i class="fa fa-calendar"></i> Jan 18, 2019
-                </div>
-            </div>
-          </div>
-        </div>
-        <div class="post">
-          <div class="inner-post">
-            <img src="images/image_4.png" alt="" style="height: 200px; width: 100%; border-top-left-radius: 5px; border-top-right-radius: 5px;">
-            <div class="post-info">
-              <h4><a href="single.php">One day your life will flash before your eyes</a></h4>
+              <h4><a href="single.php">One day your life will flash before your
+                  eyes</a></h4>
               <div>
                 <i class="fa fa-user-o"></i> Awa Melvine
                 &nbsp;
                 <i class="fa fa-calendar"></i> Jan 18, 2019
               </div>
+            </div>
+          </div>
+        </div>
+        <div class="post">
+          <img src="images/image_6.png" alt="" class="post-slider-image">
+          <div class="post-info">
+            <h4><a href="single.php">One day your life will flash before your
+                eyes</a></h4>
+            <div>
+              <i class="fa fa-user-o"></i> Awa Melvine
+              &nbsp;
+              <i class="fa fa-calendar"></i> Jan 18, 2019
+            </div>
+          </div>
+        </div>
+        <div class="post">
+          <img src="images/image_5.png" alt="" class="post-slider-image">
+          <div class="post-info">
+            <h4><a href="single.php">One day your life will flash before your
+                eyes</a></h4>
+            <div>
+              <i class="fa fa-user-o"></i> Awa Melvine
+              &nbsp;
+              <i class="fa fa-calendar"></i> Jan 18, 2019
+            </div>
+          </div>
+        </div>
+        <div class="post">
+          <img src="images/image_4.png" alt="" class="post-slider-image">
+          <div class="post-info">
+            <h4><a href="single.php">One day your life will flash before your
+                eyes</a></h4>
+            <div>
+              <i class="fa fa-user-o"></i> Awa Melvine
+              &nbsp;
+              <i class="fa fa-calendar"></i> Jan 18, 2019
             </div>
           </div>
         </div>
@@ -275,7 +273,8 @@
         <br>
         <form action="index.php" method="post">
           <input type="text" name="email-address" class="text-input contact-input" placeholder="Your email address">
-          <textarea name="message" cols="30" rows="3" class="text-input contact-input" placeholder="Message..."></textarea>
+          <textarea name="message" cols="30" rows="3" class="text-input contact-input"
+            placeholder="Message..."></textarea>
           <button type="submit" name="send-msg-btn" class="send-msg-btn">
             <i class="fa fa-send"></i> Send
           </button>

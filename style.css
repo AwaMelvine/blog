@@ -8,6 +8,10 @@ html, body {
   background: #f6f6f6;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -221,17 +225,16 @@ header nav ul .userinfo i.fa-chevron-down {
   margin-bottom: 50px;
 }
 
-.page-wrapper .posts-slider {
+.page-wrapper .post-slider {
   position: relative;
-  padding: 5px;
 }
 
-.page-wrapper .posts-slider .slider-title {
+.page-wrapper .post-slider .slider-title {
   text-align: center;
   margin: 40px auto 40px;
 }
 
-.page-wrapper .posts-slider .next {
+.page-wrapper .post-slider .next {
   position: absolute;
   right: 30px;
   top: 50%;
@@ -241,7 +244,7 @@ header nav ul .userinfo i.fa-chevron-down {
   cursor: pointer;
 }
 
-.page-wrapper .posts-slider .prev {
+.page-wrapper .post-slider .prev {
   position: absolute;
   left: 30px;
   top: 50%;
@@ -251,32 +254,36 @@ header nav ul .userinfo i.fa-chevron-down {
   cursor: pointer;
 }
 
-.page-wrapper .posts-slider .posts-wrapper {
+.page-wrapper .post-slider .post-wrapper {
   height: 350px;
+  border: 1px solid red;
   width: 84%;
   margin: 0px auto;
   overflow: hidden;
-  padding: 5px;
 }
 
-.page-wrapper .posts-slider .posts-wrapper .post {
+.page-wrapper .post-slider .post-wrapper .post {
   width: 300px;
-  height: 300px;
-  padding: 0px 10px 0px;
-  display: inline-block;
-}
-
-.page-wrapper .posts-slider .posts-wrapper .post .inner-post {
   height: 100%;
+  margin: 5px 10px;
+  display: inline-block;
   border-radius: 5px;
   background: #fff;
-  padding-bottom: 30px;
   box-shadow: 0 1.2rem 1.2rem -1rem #0a0a0a33;
+  border: 1px dashed green;
 }
 
-.page-wrapper .posts-slider .posts-wrapper .post .inner-post .post-info {
-  height: 100px;
+.page-wrapper .post-slider .post-wrapper .post .post-slider-image {
+  height: 200px;
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.page-wrapper .post-slider .post-wrapper .post .post-info {
+  height: 130px;
   padding: 5px 10px;
+  box-sizing: border-box;
 }
 
 /* CONTENT */
@@ -682,10 +689,10 @@ header nav ul .userinfo i.fa-chevron-down {
     box-sizing: border-box;
     margin: 10px auto;
   }
-  .page-wrapper .posts-slider .next {
+  .page-wrapper .post-slider .next {
     right: 10px;
   }
-  .page-wrapper .posts-slider .prev {
+  .page-wrapper .post-slider .prev {
     left: 10px;
   }
   .auth-content {
