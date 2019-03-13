@@ -136,7 +136,7 @@
             <p class="post-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus expedita tempora
               qui sunt! Ipsum nihil unde obcaecati.
             </p>
-            <a href="#" class="read-more">Read More</a>
+            <a href="#" class="btn btn-sm read-more">Read More</a>
           </div>
         </div>
         <div class="post clearfix">
@@ -151,7 +151,7 @@
             <p class="post-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus expedita tempora
               qui sunt! Ipsum nihil unde obcaecati.
             </p>
-            <a href="#" class="read-more">Read More</a>
+            <a href="#" class="btn btn-sm read-more">Read More</a>
           </div>
         </div>
         <div class="post clearfix">
@@ -166,7 +166,7 @@
             <p class="post-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus expedita tempora
               qui sunt! Ipsum nihil unde obcaecati.
             </p>
-            <a href="#" class="read-more">Read More</a>
+            <a href="#" class="btn btn-sm read-more">Read More</a>
           </div>
         </div>
       </div>

@@ -59,13 +59,12 @@ a:hover, a:active {
   display: inline-block;
   font-weight: 400;
   text-align: center;
-  width: 100%;
   white-space: nowrap;
+  border-radius: .25rem;
   border: 1px solid transparent;
   padding: .7rem 1rem;
   font-size: 1rem;
   line-height: 1.5;
-  border-radius: .25rem;
   background: #008489;
   color: #fff;
 }
@@ -389,11 +388,9 @@ header nav ul .userinfo i.fa-chevron-down {
 }
 
 .content .page-content .post .read-more {
-  text-decoration: none;
-  color: inherit;
-  text-align: center;
+  color: #444;
+  background: transparent;
   border: 1px solid #8BC7C9;
-  padding: 8px 15px;
   border-radius: 0px;
   position: absolute;
   right: 20px;
